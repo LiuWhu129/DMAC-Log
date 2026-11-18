@@ -1,0 +1,5167 @@
+{
+  "live_browser": [
+    {
+      "run_id": "1dd472bb-07e1-4073-892c-c57fe98ca764",
+      "session_id": "d61f23e3-adc7-4e97-a961-c9fe5caf3f66",
+      "budget": 500,
+      "status": "completed",
+      "browser": {
+        "cards": [
+          {
+            "title": "Voyager 旅行三件套 记忆棉款",
+            "price": "¥139.00"
+          },
+          {
+            "title": "Atlas 旅行收纳包 288",
+            "price": "¥38.98"
+          },
+          {
+            "title": "LinenFold 亚麻旅行衣物收纳套",
+            "price": "¥129.00"
+          },
+          {
+            "title": "Atlas 旅行收纳包 168",
+            "price": "¥38.98"
+          },
+          {
+            "title": "Atlas 旅行收纳包 144",
+            "price": "¥39.01"
+          },
+          {
+            "title": "Atlas 旅行收纳包 224",
+            "price": "¥169.02"
+          },
+          {
+            "title": "Atlas 旅行收纳包 104",
+            "price": "¥169.02"
+          },
+          {
+            "title": "Atlas 旅行收纳包 248",
+            "price": "¥169.01"
+          },
+          {
+            "title": "Atlas 旅行收纳包 152",
+            "price": "¥169.03"
+          },
+          {
+            "title": "Atlas 旅行收纳包 312",
+            "price": "¥39.00"
+          },
+          {
+            "title": "Atlas 旅行收纳包 360",
+            "price": "¥39.00"
+          },
+          {
+            "title": "Wanderlite 轻量旅行腰包",
+            "price": "¥79.00"
+          }
+        ],
+        "reply": "本次检索共找到 12 件符合条件的旅行装备（单价 ≤ 500 元、可送达中国），全部展示如下：\n\n展开完整选购建议\n⌄",
+        "diagnostics": "16",
+        "clarification": false,
+        "streams": [
+          {
+            "status": 200,
+            "mime": "text/event-stream",
+            "finished": true
+          }
+        ]
+      },
+      "tool_calls": [
+        {
+          "name": "product_search_tool",
+          "args": {
+            "normalized_query": "旅行装备",
+            "ship_to": "CN",
+            "top_k": 12,
+            "price_max_major": 500,
+            "target_currency": "CNY"
+          },
+          "start_seq": 5,
+          "result_seq": 19,
+          "result": {
+            "total_candidates": 23,
+            "recall_strategy": "embedding_only",
+            "query_conditions": {
+              "normalized_query": "旅行装备",
+              "category": "旅行装备",
+              "ship_to": "CN",
+              "top_k": 12,
+              "price_max_major": 500,
+              "target_currency": "CNY",
+              "excluded_material_tags": [],
+              "required_material_tags": [],
+              "product_id": null,
+              "sku_id": null,
+              "sku_spec": null,
+              "product_type": null,
+              "max_weight_kg": null,
+              "preferred_product_type": null,
+              "prefer_lightweight": false
+            },
+            "hits": [
+              {
+                "product_id": "P1011",
+                "title": "Voyager 旅行三件套 记忆棉款",
+                "brand": "Voyager",
+                "category": "旅行装备",
+                "price_major": 139.0,
+                "currency": "CNY",
+                "source_price_major": 139.0,
+                "source_currency": "CNY",
+                "skus": [
+                  {
+                    "sku_id": "P1011-S1",
+                    "spec": "深灰",
+                    "price_major": 139.0,
+                    "currency": "CNY",
+                    "stock": 60
+                  }
+                ],
+                "landed_price": {
+                  "ship_to": "CN",
+                  "subtotal_major": 139.0,
+                  "freight_major": 25.0,
+                  "tariff_major": 0.0,
+                  "tariff_rate": 0.09,
+                  "de_minimis_applied": true,
+                  "landed_total_major": 164.0,
+                  "currency": "CNY"
+                },
+                "material_tags": [
+                  "合成聚合物"
+                ],
+                "ships_to": [
+                  "CN",
+                  "US",
+                  "SG"
+                ],
+                "highlights": [
+                  "材质：记忆棉 + 涤纶外套"
+                ],
+                "default_sku_id": "P1011-S1",
+                "canonical_product_id": "CAN-LEGACY-010",
+                "weight_kg": 1.05,
+                "known_weight_kg": 1.05,
+                "product_type": "旅行套装",
+                "eligible_sku_ids": [
+                  "P1011-S1"
+                ],
+                "dimensions_cm": {
+                  "height": 14,
+                  "length": 22,
+                  "width": 18
+                },
+                "origin_country": "CN",
+                "source_platform": "etsy"
+              },
+              {
+                "product_id": "P2288",
+                "title": "Atlas 旅行收纳包 288",
+                "brand": "Atlas-00",
+                "category": "旅行装备",
+                "price_major": 38.98,
+                "currency": "CNY",
+                "source_price_major": 812.0,
+                "source_currency": "JPY",
+                "skus": [
+                  {
+                    "sku_id": "P2288-S1",
+                    "spec": "标准版",
+                    "price_major": 812.0,
+                    "currency": "JPY",
+                    "stock": 44
+                  }
+                ],
+                "landed_price": {
+                  "ship_to": "CN",
+                  "subtotal_major": 38.98,
+                  "freight_major": 25.0,
+                  "tariff_major": 0.0,
+                  "tariff_rate": 0.09,
+                  "de_minimis_applied": true,
+                  "landed_total_major": 63.98,
+                  "currency": "CNY"
+                },
+                "material_tags": [
+                  "陶瓷"
+                ],
+                "ships_to": [
+                  "CN"
+                ],
+                "highlights": [
+                  "材质：高温陶瓷",
+                  "测试属性：候选分组 57"
+                ],
+                "default_sku_id": "P2288-S1",
+                "canonical_product_id": "CAN-057",
+                "weight_kg": 0.74,
+                "known_weight_kg": 0.74,
+                "product_type": "收纳袋",
+                "eligible_sku_ids": [
+                  "P2288-S1"
+                ],
+                "dimensions_cm": {
+                  "height": 5,
+                  "length": 19,
+                  "width": 23
+                },
+                "origin_country": "CN",
+                "source_platform": "amazon"
+              },
+              {
+                "product_id": "P1019",
+                "title": "LinenFold 亚麻旅行衣物收纳套",
+                "brand": "LinenFold",
+                "category": "旅行装备",
+                "price_major": 129.0,
+                "currency": "CNY",
+                "source_price_major": 129.0,
+                "source_currency": "CNY",
+                "skus": [
+                  {
+                    "sku_id": "P1019-S1",
+                    "spec": "本色三只装",
+                    "price_major": 129.0,
+                    "currency": "CNY",
+                    "stock": 70
+                  }
+                ],
+                "landed_price": {
+                  "ship_to": "CN",
+                  "subtotal_major": 129.0,
+                  "freight_major": 25.0,
+                  "tariff_major": 0.0,
+                  "tariff_rate": 0.09,
+                  "de_minimis_applied": true,
+                  "landed_total_major": 154.0,
+                  "currency": "CNY"
+                },
+                "material_tags": [
+                  "合成聚合物"
+                ],
+                "ships_to": [
+                  "CN",
+                  "JP"
+                ],
+                "highlights": [
+                  "材质：100% 亚麻，无塑料"
+                ],
+                "default_sku_id": "P1019-S1",
+                "canonical_product_id": "CAN-LEGACY-018",
+                "weight_kg": 1.77,
+                "known_weight_kg": 1.77,
+                "product_type": null,
+                "eligible_sku_ids": [
+                  "P1019-S1"
+                ],
+                "dimensions_cm": {
+                  "height": 10,
+                  "length": 30,
+                  "width": 11
+                },
+                "origin_country": "CN",
+                "source_platform": "etsy"
+              },
+              {
+                "product_id": "P2168",
+                "title": "Atlas 旅行收纳包 168",
+                "brand": "Atlas-00",
+                "category": "旅行装备",
+                "price_major": 38.98,
+                "currency": "CNY",
+                "source_price_major": 812.0,
+                "source_currency": "JPY",
+                "skus": [
+                  {
+                    "sku_id": "P2168-S1",
+                    "spec": "标准版",
+                    "price_major": 812.0,
+                    "currency": "JPY",
+                    "stock": 104
+                  },
+                  {
+                    "sku_id": "P2168-S2",
+                    "spec": "升级版",
+                    "price_major": 2076.48,
+                    "currency": "JPY",
+                    "stock": 115
+                  }
+                ],
+                "landed_price": {
+                  "ship_to": "CN",
+                  "subtotal_major": 38.98,
+                  "freight_major": 25.0,
+                  "tariff_major": 0.0,
+                  "tariff_rate": 0.09,
+                  "de_minimis_applied": true,
+                  "landed_total_major": 63.98,
+                  "currency": "CNY"
+                },
+                "material_tags": [
+                  "陶瓷"
+                ],
+                "ships_to": [
+                  "CN",
+                  "EU"
+                ],
+                "highlights": [
+                  "材质：高温陶瓷",
+                  "测试属性：候选分组 33"
+                ],
+                "default_sku_id": "P2168-S1",
+                "canonical_product_id": "CAN-033",
+                "weight_kg": 2.34,
+                "known_weight_kg": 2.34,
+                "product_type": "收纳袋",
+                "eligible_sku_ids": [
+                  "P2168-S1",
+                  "P2168-S2"
+                ],
+                "dimensions_cm": {
+                  "height": 15,
+                  "length": 23,
+                  "width": 22
+                },
+                "origin_country": "CN",
+                "source_platform": "amazon"
+              },
+              {
+                "product_id": "P2144",
+                "title": "Atlas 旅行收纳包 144",
+                "brand": "Atlas-00",
+                "category": "旅行装备",
+                "price_major": 39.01,
+                "currency": "CNY",
+                "source_price_major": 7.36,
+                "source_currency": "SGD",
+                "skus": [
+                  {
+                    "sku_id": "P2144-S1",
+                    "spec": "标准版",
+                    "price_major": 7.36,
+                    "currency": "SGD",
+                    "stock": 116
+                  },
+                  {
+                    "sku_id": "P2144-S2",
+                    "spec": "升级版",
+                    "price_major": 18.8,
+                    "currency": "SGD",
+                    "stock": 127
+                  }
+                ],
+                "landed_price": {
+                  "ship_to": "CN",
+                  "subtotal_major": 39.01,
+                  "freight_major": 25.0,
+                  "tariff_major": 0.0,
+                  "tariff_rate": 0.09,
+                  "de_minimis_applied": true,
+                  "landed_total_major": 64.01,
+                  "currency": "CNY"
+                },
+                "material_tags": [
+                  "玻璃"
+                ],
+                "ships_to": [
+                  "CN"
+                ],
+                "highlights": [
+                  "材质：耐热玻璃",
+                  "测试属性：候选分组 28"
+                ],
+                "default_sku_id": "P2144-S1",
+                "canonical_product_id": "CAN-028",
+                "weight_kg": 0.42,
+                "known_weight_kg": 0.42,
+                "product_type": "收纳袋",
+                "eligible_sku_ids": [
+                  "P2144-S1",
+                  "P2144-S2"
+                ],
+                "dimensions_cm": {
+                  "height": 4,
+                  "length": 30,
+                  "width": 15
+                },
+                "origin_country": "CN",
+                "source_platform": "amazon"
+              },
+              {
+                "product_id": "P2224",
+                "title": "Atlas 旅行收纳包 224",
+                "brand": "Atlas-08",
+                "category": "旅行装备",
+                "price_major": 169.02,
+                "currency": "CNY",
+                "source_price_major": 31.89,
+                "source_currency": "SGD",
+                "skus": [
+                  {
+                    "sku_id": "P2224-S1",
+                    "spec": "标准版",
+                    "price_major": 31.89,
+                    "currency": "SGD",
+                    "stock": 136
+                  }
+                ],
+                "landed_price": {
+                  "ship_to": "CN",
+                  "subtotal_major": 169.02,
+                  "freight_major": 25.0,
+                  "tariff_major": 0.0,
+                  "tariff_rate": 0.09,
+                  "de_minimis_applied": true,
+                  "landed_total_major": 194.02,
+                  "currency": "CNY"
+                },
+                "material_tags": [
+                  "玻璃"
+                ],
+                "ships_to": [
+                  "CN",
+                  "US",
+                  "EU",
+                  "JP",
+                  "SG"
+                ],
+                "highlights": [
+                  "材质：耐热玻璃",
+                  "测试属性：候选分组 44"
+                ],
+                "default_sku_id": "P2224-S1",
+                "canonical_product_id": "CAN-044",
+                "weight_kg": 1.22,
+                "known_weight_kg": 1.22,
+                "product_type": "收纳袋",
+                "eligible_sku_ids": [
+                  "P2224-S1"
+                ],
+                "dimensions_cm": {
+                  "height": 6,
+                  "length": 17,
+                  "width": 10
+                },
+                "origin_country": "CN",
+                "source_platform": "amazon"
+              },
+              {
+                "product_id": "P2104",
+                "title": "Atlas 旅行收纳包 104",
+                "brand": "Atlas-08",
+                "category": "旅行装备",
+                "price_major": 169.02,
+                "currency": "CNY",
+                "source_price_major": 31.89,
+                "source_currency": "SGD",
+                "skus": [
+                  {
+                    "sku_id": "P2104-S1",
+                    "spec": "标准版",
+                    "price_major": 31.89,
+                    "currency": "SGD",
+                    "stock": 16
+                  },
+                  {
+                    "sku_id": "P2104-S2",
+                    "spec": "升级版",
+                    "price_major": 69.53,
+                    "currency": "SGD",
+                    "stock": 27
+                  }
+                ],
+                "landed_price": {
+                  "ship_to": "CN",
+                  "subtotal_major": 169.02,
+                  "freight_major": 25.0,
+                  "tariff_major": 0.0,
+                  "tariff_rate": 0.09,
+                  "de_minimis_applied": true,
+                  "landed_total_major": 194.02,
+                  "currency": "CNY"
+                },
+                "material_tags": [
+                  "玻璃"
+                ],
+                "ships_to": [
+                  "CN",
+                  "US"
+                ],
+                "highlights": [
+                  "材质：耐热玻璃",
+                  "测试属性：候选分组 20"
+                ],
+                "default_sku_id": "P2104-S1",
+                "canonical_product_id": "CAN-020",
+                "weight_kg": 2.82,
+                "known_weight_kg": 2.82,
+                "product_type": "收纳袋",
+                "eligible_sku_ids": [
+                  "P2104-S1",
+                  "P2104-S2"
+                ],
+                "dimensions_cm": {
+                  "height": 3,
+                  "length": 21,
+                  "width": 9
+                },
+                "origin_country": "CN",
+                "source_platform": "amazon"
+              },
+              {
+                "product_id": "P2248",
+                "title": "Atlas 旅行收纳包 248",
+                "brand": "Atlas-08",
+                "category": "旅行装备",
+                "price_major": 169.01,
+                "currency": "CNY",
+                "source_price_major": 3521.0,
+                "source_currency": "JPY",
+                "skus": [
+                  {
+                    "sku_id": "P2248-S1",
+                    "spec": "标准版",
+                    "price_major": 3521.0,
+                    "currency": "JPY",
+                    "stock": 124
+                  }
+                ],
+                "landed_price": {
+                  "ship_to": "CN",
+                  "subtotal_major": 169.01,
+                  "freight_major": 25.0,
+                  "tariff_major": 0.0,
+                  "tariff_rate": 0.09,
+                  "de_minimis_applied": true,
+                  "landed_total_major": 194.01,
+                  "currency": "CNY"
+                },
+                "material_tags": [
+                  "陶瓷"
+                ],
+                "ships_to": [
+                  "CN",
+                  "US"
+                ],
+                "highlights": [
+                  "材质：高温陶瓷",
+                  "测试属性：候选分组 49"
+                ],
+                "default_sku_id": "P2248-S1",
+                "canonical_product_id": "CAN-049",
+                "weight_kg": 0.34,
+                "known_weight_kg": 0.34,
+                "product_type": "收纳袋",
+                "eligible_sku_ids": [
+                  "P2248-S1"
+                ],
+                "dimensions_cm": {
+                  "height": 4,
+                  "length": 10,
+                  "width": 17
+                },
+                "origin_country": "CN",
+                "source_platform": "amazon"
+              },
+              {
+                "product_id": "P2152",
+                "title": "Atlas 旅行收纳包 152",
+                "brand": "Atlas-08",
+                "category": "旅行装备",
+                "price_major": 169.03,
+                "currency": "CNY",
+                "source_price_major": 21.67,
+                "source_currency": "EUR",
+                "skus": [
+                  {
+                    "sku_id": "P2152-S1",
+                    "spec": "标准版",
+                    "price_major": 21.67,
+                    "currency": "EUR",
+                    "stock": 172
+                  },
+                  {
+                    "sku_id": "P2152-S2",
+                    "spec": "升级版",
+                    "price_major": 47.24,
+                    "currency": "EUR",
+                    "stock": 183
+                  }
+                ],
+                "landed_price": {
+                  "ship_to": "CN",
+                  "subtotal_major": 169.03,
+                  "freight_major": 25.0,
+                  "tariff_major": 0.0,
+                  "tariff_rate": 0.09,
+                  "de_minimis_applied": true,
+                  "landed_total_major": 194.03,
+                  "currency": "CNY"
+                },
+                "material_tags": [
+                  "金属"
+                ],
+                "ships_to": [
+                  "CN",
+                  "US",
+                  "EU",
+                  "JP",
+                  "SG"
+                ],
+                "highlights": [
+                  "材质：铝合金",
+                  "测试属性：候选分组 30"
+                ],
+                "default_sku_id": "P2152-S1",
+                "canonical_product_id": "CAN-030",
+                "weight_kg": 1.06,
+                "known_weight_kg": 1.06,
+                "product_type": "收纳袋",
+                "eligible_sku_ids": [
+                  "P2152-S1",
+                  "P2152-S2"
+                ],
+                "dimensions_cm": {
+                  "height": 12,
+                  "length": 38,
+                  "width": 23
+                },
+                "origin_country": "CN",
+                "source_platform": "amazon"
+              },
+              {
+                "product_id": "P2312",
+                "title": "Atlas 旅行收纳包 312",
+                "brand": "Atlas-00",
+                "category": "旅行装备",
+                "price_major": 39.0,
+                "currency": "CNY",
+                "source_price_major": 5.0,
+                "source_currency": "EUR",
+                "skus": [
+                  {
+                    "sku_id": "P2312-S1",
+                    "spec": "标准版",
+                    "price_major": 5.0,
+                    "currency": "EUR",
+                    "stock": 32
+                  }
+                ],
+                "landed_price": {
+                  "ship_to": "CN",
+                  "subtotal_major": 39.0,
+                  "freight_major": 25.0,
+                  "tariff_major": 0.0,
+                  "tariff_rate": 0.09,
+                  "de_minimis_applied": true,
+                  "landed_total_major": 64.0,
+                  "currency": "CNY"
+                },
+                "material_tags": [
+                  "金属"
+                ],
+                "ships_to": [
+                  "CN",
+                  "EU"
+                ],
+                "highlights": [
+                  "材质：铝合金",
+                  "测试属性：候选分组 62"
+                ],
+                "default_sku_id": "P2312-S1",
+                "canonical_product_id": "CAN-062",
+                "weight_kg": 2.66,
+                "known_weight_kg": 2.66,
+                "product_type": "收纳袋",
+                "eligible_sku_ids": [
+                  "P2312-S1"
+                ],
+                "dimensions_cm": {
+                  "height": 3,
+                  "length": 12,
+                  "width": 13
+                },
+                "origin_country": "CN",
+                "source_platform": "amazon"
+              },
+              {
+                "product_id": "P2360",
+                "title": "Atlas 旅行收纳包 360",
+                "brand": "Atlas-00",
+                "category": "旅行装备",
+                "price_major": 39.0,
+                "currency": "CNY",
+                "source_price_major": 39.0,
+                "source_currency": "CNY",
+                "skus": [
+                  {
+                    "sku_id": "P2360-S1",
+                    "spec": "标准版",
+                    "price_major": 39.0,
+                    "currency": "CNY",
+                    "stock": 8
+                  }
+                ],
+                "landed_price": {
+                  "ship_to": "CN",
+                  "subtotal_major": 39.0,
+                  "freight_major": 25.0,
+                  "tariff_major": 0.0,
+                  "tariff_rate": 0.09,
+                  "de_minimis_applied": true,
+                  "landed_total_major": 64.0,
+                  "currency": "CNY"
+                },
+                "material_tags": [
+                  "天然纤维"
+                ],
+                "ships_to": [
+                  "CN"
+                ],
+                "highlights": [
+                  "材质：帆布棉麻",
+                  "测试属性：候选分组 72"
+                ],
+                "default_sku_id": "P2360-S1",
+                "canonical_product_id": "CAN-072",
+                "weight_kg": 0.9,
+                "known_weight_kg": 0.9,
+                "product_type": "收纳袋",
+                "eligible_sku_ids": [
+                  "P2360-S1"
+                ],
+                "dimensions_cm": {
+                  "height": 12,
+                  "length": 29,
+                  "width": 10
+                },
+                "origin_country": "CN",
+                "source_platform": "amazon"
+              },
+              {
+                "product_id": "P1017",
+                "title": "Wanderlite 轻量旅行腰包",
+                "brand": "Wanderlite",
+                "category": "旅行装备",
+                "price_major": 79.0,
+                "currency": "CNY",
+                "source_price_major": 79.0,
+                "source_currency": "CNY",
+                "skus": [
+                  {
+                    "sku_id": "P1017-S1",
+                    "spec": "雾霞蓝",
+                    "price_major": 79.0,
+                    "currency": "CNY",
+                    "stock": 100
+                  }
+                ],
+                "landed_price": {
+                  "ship_to": "CN",
+                  "subtotal_major": 79.0,
+                  "freight_major": 25.0,
+                  "tariff_major": 0.0,
+                  "tariff_rate": 0.09,
+                  "de_minimis_applied": true,
+                  "landed_total_major": 104.0,
+                  "currency": "CNY"
+                },
+                "material_tags": [
+                  "天然材料"
+                ],
+                "ships_to": [
+                  "CN",
+                  "JP",
+                  "SG"
+                ],
+                "highlights": [
+                  "重量：仅 120g"
+                ],
+                "default_sku_id": "P1017-S1",
+                "canonical_product_id": "CAN-LEGACY-016",
+                "weight_kg": 1.59,
+                "known_weight_kg": 1.59,
+                "product_type": "腰包",
+                "eligible_sku_ids": [
+                  "P1017-S1"
+                ],
+                "dimensions_cm": {
+                  "height": 8,
+                  "length": 28,
+                  "width": 9
+                },
+                "origin_country": "KR",
+                "source_platform": "amazon"
+              }
+            ],
+            "filtered_out": [
+              {
+                "product_id": "P2208",
+                "title": "Atlas 旅行收纳包 208",
+                "category": "旅行装备",
+                "price_major": 698.98,
+                "currency": "CNY",
+                "reason": "ship_to_unavailable"
+              },
+              {
+                "product_id": "P2328",
+                "title": "Atlas 旅行收纳包 328",
+                "category": "旅行装备",
+                "price_major": 698.98,
+                "currency": "CNY",
+                "reason": "ship_to_unavailable"
+              },
+              {
+                "product_id": "P2304",
+                "title": "Atlas 旅行收纳包 304",
+                "category": "旅行装备",
+                "price_major": 699.02,
+                "currency": "CNY",
+                "reason": "ship_to_unavailable"
+              }
+            ]
+          }
+        }
+      ],
+      "event_positions": [
+        [
+          5,
+          "TOOL_CALL_START"
+        ],
+        [
+          19,
+          "TOOL_CALL_RESULT"
+        ],
+        [
+          1047,
+          "RUN_FINISHED"
+        ]
+      ],
+      "usage": {
+        "status": "success",
+        "elapsed_ms": 131445.9712000098,
+        "model_calls": 2,
+        "input_tokens": 22368,
+        "output_tokens": 1106,
+        "observed_input_tokens": 22368,
+        "observed_output_tokens": 1106,
+        "unknown_usage_calls": 0,
+        "active_attempts_at_finish": 0,
+        "usage_complete": true,
+        "ttft_p95_ms": 6203.000000008615,
+        "model_elapsed_ms": 130359.00000002584,
+        "tool_calls": 1,
+        "tool_errors": 0,
+        "fallbacks": 0,
+        "cost_usd": null,
+        "unknown_cost_calls": 2
+      },
+      "terminal": {
+        "type": "RUN_FINISHED",
+        "seq": 1047,
+        "outcome": {
+          "type": "success"
+        }
+      }
+    },
+    {
+      "run_id": "04ce697e-8371-4741-93db-954035d8ed1e",
+      "session_id": "d61f23e3-adc7-4e97-a961-c9fe5caf3f66",
+      "budget": 50,
+      "status": "completed",
+      "browser": {
+        "budget": 50,
+        "prompt": "把刚才的单件商品预算改为 50 元，其他条件不变。请用一两句话说明结果。",
+        "runId": "04ce697e-8371-4741-93db-954035d8ed1e",
+        "threadId": "d61f23e3-adc7-4e97-a961-c9fe5caf3f66",
+        "webStatus": 200,
+        "finished": true,
+        "reply": "预算收紧至 ¥50 以内后，本次共找到 12 件商品。上一轮的 Voyager 旅行三件套 (P1011, ¥139)、亚麻收纳套 (P1019, ¥129)、旅行腰包 (P1017, ¥79) 及部分 Atlas 收纳包因超过 ¥50 单价上限被过滤；新出现的商品包括 TravelScale 便携行李称 (P1052, ¥45)、BudgetPack 20L 简易背包 (P1049, ¥39)、SoleFresh 折叠旅行拖鞋 (P1020, ¥49) 等。整体以低价 Atlas 收纳袋（单价 ¥38.98–39.01）为主。",
+        "error": null,
+        "cards": [
+          {
+            "title": "Atlas 旅行收纳包 288",
+            "price": "¥38.98"
+          },
+          {
+            "title": "Atlas 旅行收纳包 168",
+            "price": "¥38.98"
+          },
+          {
+            "title": "Atlas 旅行收纳包 144",
+            "price": "¥39.01"
+          },
+          {
+            "title": "Atlas 旅行收纳包 312",
+            "price": "¥39.00"
+          },
+          {
+            "title": "Atlas 旅行收纳包 360",
+            "price": "¥39.00"
+          },
+          {
+            "title": "Atlas 旅行收纳包 216",
+            "price": "¥38.98"
+          },
+          {
+            "title": "Atlas 旅行收纳包 384",
+            "price": "¥39.01"
+          },
+          {
+            "title": "Atlas 旅行收纳包 432",
+            "price": "¥39.00"
+          },
+          {
+            "title": "TravelScale 便携行李称",
+            "price": "¥45.00"
+          },
+          {
+            "title": "Atlas 旅行收纳包 240",
+            "price": "¥39.00"
+          },
+          {
+            "title": "BudgetPack 20L 简易背包",
+            "price": "¥39.00"
+          },
+          {
+            "title": "SoleFresh 折叠旅行拖鞋",
+            "price": "¥49.00"
+          }
+        ]
+      },
+      "tool_calls": [
+        {
+          "name": "product_search_tool",
+          "args": {
+            "normalized_query": "旅行装备",
+            "ship_to": "CN",
+            "top_k": 12,
+            "price_max_major": 50,
+            "target_currency": "CNY"
+          },
+          "start_seq": 5,
+          "result_seq": 19,
+          "result": {
+            "total_candidates": 12,
+            "recall_strategy": "embedding_only",
+            "query_conditions": {
+              "normalized_query": "旅行装备",
+              "category": "旅行装备",
+              "ship_to": "CN",
+              "top_k": 12,
+              "price_max_major": 50,
+              "target_currency": "CNY",
+              "excluded_material_tags": [],
+              "required_material_tags": [],
+              "product_id": null,
+              "sku_id": null,
+              "sku_spec": null,
+              "product_type": null,
+              "max_weight_kg": null,
+              "preferred_product_type": null,
+              "prefer_lightweight": false
+            },
+            "hits": [
+              {
+                "product_id": "P2288",
+                "title": "Atlas 旅行收纳包 288",
+                "brand": "Atlas-00",
+                "category": "旅行装备",
+                "price_major": 38.98,
+                "currency": "CNY",
+                "source_price_major": 812.0,
+                "source_currency": "JPY",
+                "skus": [
+                  {
+                    "sku_id": "P2288-S1",
+                    "spec": "标准版",
+                    "price_major": 812.0,
+                    "currency": "JPY",
+                    "stock": 44
+                  }
+                ],
+                "landed_price": {
+                  "ship_to": "CN",
+                  "subtotal_major": 38.98,
+                  "freight_major": 25.0,
+                  "tariff_major": 0.0,
+                  "tariff_rate": 0.09,
+                  "de_minimis_applied": true,
+                  "landed_total_major": 63.98,
+                  "currency": "CNY"
+                },
+                "material_tags": [
+                  "陶瓷"
+                ],
+                "ships_to": [
+                  "CN"
+                ],
+                "highlights": [
+                  "材质：高温陶瓷",
+                  "测试属性：候选分组 57"
+                ],
+                "default_sku_id": "P2288-S1",
+                "canonical_product_id": "CAN-057",
+                "weight_kg": 0.74,
+                "known_weight_kg": 0.74,
+                "product_type": "收纳袋",
+                "eligible_sku_ids": [
+                  "P2288-S1"
+                ],
+                "dimensions_cm": {
+                  "height": 5,
+                  "length": 19,
+                  "width": 23
+                },
+                "origin_country": "CN",
+                "source_platform": "amazon"
+              },
+              {
+                "product_id": "P2168",
+                "title": "Atlas 旅行收纳包 168",
+                "brand": "Atlas-00",
+                "category": "旅行装备",
+                "price_major": 38.98,
+                "currency": "CNY",
+                "source_price_major": 812.0,
+                "source_currency": "JPY",
+                "skus": [
+                  {
+                    "sku_id": "P2168-S1",
+                    "spec": "标准版",
+                    "price_major": 812.0,
+                    "currency": "JPY",
+                    "stock": 104
+                  },
+                  {
+                    "sku_id": "P2168-S2",
+                    "spec": "升级版",
+                    "price_major": 2076.48,
+                    "currency": "JPY",
+                    "stock": 115
+                  }
+                ],
+                "landed_price": {
+                  "ship_to": "CN",
+                  "subtotal_major": 38.98,
+                  "freight_major": 25.0,
+                  "tariff_major": 0.0,
+                  "tariff_rate": 0.09,
+                  "de_minimis_applied": true,
+                  "landed_total_major": 63.98,
+                  "currency": "CNY"
+                },
+                "material_tags": [
+                  "陶瓷"
+                ],
+                "ships_to": [
+                  "CN",
+                  "EU"
+                ],
+                "highlights": [
+                  "材质：高温陶瓷",
+                  "测试属性：候选分组 33"
+                ],
+                "default_sku_id": "P2168-S1",
+                "canonical_product_id": "CAN-033",
+                "weight_kg": 2.34,
+                "known_weight_kg": 2.34,
+                "product_type": "收纳袋",
+                "eligible_sku_ids": [
+                  "P2168-S1"
+                ],
+                "dimensions_cm": {
+                  "height": 15,
+                  "length": 23,
+                  "width": 22
+                },
+                "origin_country": "CN",
+                "source_platform": "amazon"
+              },
+              {
+                "product_id": "P2144",
+                "title": "Atlas 旅行收纳包 144",
+                "brand": "Atlas-00",
+                "category": "旅行装备",
+                "price_major": 39.01,
+                "currency": "CNY",
+                "source_price_major": 7.36,
+                "source_currency": "SGD",
+                "skus": [
+                  {
+                    "sku_id": "P2144-S1",
+                    "spec": "标准版",
+                    "price_major": 7.36,
+                    "currency": "SGD",
+                    "stock": 116
+                  },
+                  {
+                    "sku_id": "P2144-S2",
+                    "spec": "升级版",
+                    "price_major": 18.8,
+                    "currency": "SGD",
+                    "stock": 127
+                  }
+                ],
+                "landed_price": {
+                  "ship_to": "CN",
+                  "subtotal_major": 39.01,
+                  "freight_major": 25.0,
+                  "tariff_major": 0.0,
+                  "tariff_rate": 0.09,
+                  "de_minimis_applied": true,
+                  "landed_total_major": 64.01,
+                  "currency": "CNY"
+                },
+                "material_tags": [
+                  "玻璃"
+                ],
+                "ships_to": [
+                  "CN"
+                ],
+                "highlights": [
+                  "材质：耐热玻璃",
+                  "测试属性：候选分组 28"
+                ],
+                "default_sku_id": "P2144-S1",
+                "canonical_product_id": "CAN-028",
+                "weight_kg": 0.42,
+                "known_weight_kg": 0.42,
+                "product_type": "收纳袋",
+                "eligible_sku_ids": [
+                  "P2144-S1"
+                ],
+                "dimensions_cm": {
+                  "height": 4,
+                  "length": 30,
+                  "width": 15
+                },
+                "origin_country": "CN",
+                "source_platform": "amazon"
+              },
+              {
+                "product_id": "P2312",
+                "title": "Atlas 旅行收纳包 312",
+                "brand": "Atlas-00",
+                "category": "旅行装备",
+                "price_major": 39.0,
+                "currency": "CNY",
+                "source_price_major": 5.0,
+                "source_currency": "EUR",
+                "skus": [
+                  {
+                    "sku_id": "P2312-S1",
+                    "spec": "标准版",
+                    "price_major": 5.0,
+                    "currency": "EUR",
+                    "stock": 32
+                  }
+                ],
+                "landed_price": {
+                  "ship_to": "CN",
+                  "subtotal_major": 39.0,
+                  "freight_major": 25.0,
+                  "tariff_major": 0.0,
+                  "tariff_rate": 0.09,
+                  "de_minimis_applied": true,
+                  "landed_total_major": 64.0,
+                  "currency": "CNY"
+                },
+                "material_tags": [
+                  "金属"
+                ],
+                "ships_to": [
+                  "CN",
+                  "EU"
+                ],
+                "highlights": [
+                  "材质：铝合金",
+                  "测试属性：候选分组 62"
+                ],
+                "default_sku_id": "P2312-S1",
+                "canonical_product_id": "CAN-062",
+                "weight_kg": 2.66,
+                "known_weight_kg": 2.66,
+                "product_type": "收纳袋",
+                "eligible_sku_ids": [
+                  "P2312-S1"
+                ],
+                "dimensions_cm": {
+                  "height": 3,
+                  "length": 12,
+                  "width": 13
+                },
+                "origin_country": "CN",
+                "source_platform": "amazon"
+              },
+              {
+                "product_id": "P2360",
+                "title": "Atlas 旅行收纳包 360",
+                "brand": "Atlas-00",
+                "category": "旅行装备",
+                "price_major": 39.0,
+                "currency": "CNY",
+                "source_price_major": 39.0,
+                "source_currency": "CNY",
+                "skus": [
+                  {
+                    "sku_id": "P2360-S1",
+                    "spec": "标准版",
+                    "price_major": 39.0,
+                    "currency": "CNY",
+                    "stock": 8
+                  }
+                ],
+                "landed_price": {
+                  "ship_to": "CN",
+                  "subtotal_major": 39.0,
+                  "freight_major": 25.0,
+                  "tariff_major": 0.0,
+                  "tariff_rate": 0.09,
+                  "de_minimis_applied": true,
+                  "landed_total_major": 64.0,
+                  "currency": "CNY"
+                },
+                "material_tags": [
+                  "天然纤维"
+                ],
+                "ships_to": [
+                  "CN"
+                ],
+                "highlights": [
+                  "材质：帆布棉麻",
+                  "测试属性：候选分组 72"
+                ],
+                "default_sku_id": "P2360-S1",
+                "canonical_product_id": "CAN-072",
+                "weight_kg": 0.9,
+                "known_weight_kg": 0.9,
+                "product_type": "收纳袋",
+                "eligible_sku_ids": [
+                  "P2360-S1"
+                ],
+                "dimensions_cm": {
+                  "height": 12,
+                  "length": 29,
+                  "width": 10
+                },
+                "origin_country": "CN",
+                "source_platform": "amazon"
+              },
+              {
+                "product_id": "P2216",
+                "title": "Atlas 旅行收纳包 216",
+                "brand": "Atlas-00",
+                "category": "旅行装备",
+                "price_major": 38.98,
+                "currency": "CNY",
+                "source_price_major": 5.49,
+                "source_currency": "USD",
+                "skus": [
+                  {
+                    "sku_id": "P2216-S1",
+                    "spec": "标准版",
+                    "price_major": 5.49,
+                    "currency": "USD",
+                    "stock": 80
+                  }
+                ],
+                "landed_price": {
+                  "ship_to": "CN",
+                  "subtotal_major": 38.98,
+                  "freight_major": 25.0,
+                  "tariff_major": 0.0,
+                  "tariff_rate": 0.09,
+                  "de_minimis_applied": true,
+                  "landed_total_major": 63.98,
+                  "currency": "CNY"
+                },
+                "material_tags": [
+                  "合成聚合物"
+                ],
+                "ships_to": [
+                  "CN"
+                ],
+                "highlights": [
+                  "材质：再生尼龙",
+                  "测试属性：候选分组 43"
+                ],
+                "default_sku_id": "P2216-S1",
+                "canonical_product_id": "CAN-043",
+                "weight_kg": 0.58,
+                "known_weight_kg": 0.58,
+                "product_type": "收纳袋",
+                "eligible_sku_ids": [
+                  "P2216-S1"
+                ],
+                "dimensions_cm": {
+                  "height": 11,
+                  "length": 40,
+                  "width": 19
+                },
+                "origin_country": "CN",
+                "source_platform": "amazon"
+              },
+              {
+                "product_id": "P2384",
+                "title": "Atlas 旅行收纳包 384",
+                "brand": "Atlas-00",
+                "category": "旅行装备",
+                "price_major": 39.01,
+                "currency": "CNY",
+                "source_price_major": 7.36,
+                "source_currency": "SGD",
+                "skus": [
+                  {
+                    "sku_id": "P2384-S1",
+                    "spec": "标准版",
+                    "price_major": 7.36,
+                    "currency": "SGD",
+                    "stock": 176
+                  }
+                ],
+                "landed_price": {
+                  "ship_to": "CN",
+                  "subtotal_major": 39.01,
+                  "freight_major": 25.0,
+                  "tariff_major": 0.0,
+                  "tariff_rate": 0.09,
+                  "de_minimis_applied": true,
+                  "landed_total_major": 64.01,
+                  "currency": "CNY"
+                },
+                "material_tags": [
+                  "玻璃"
+                ],
+                "ships_to": [
+                  "CN",
+                  "EU"
+                ],
+                "highlights": [
+                  "材质：耐热玻璃",
+                  "测试属性：候选分组 76"
+                ],
+                "default_sku_id": "P2384-S1",
+                "canonical_product_id": "CAN-076",
+                "weight_kg": 2.82,
+                "known_weight_kg": 2.82,
+                "product_type": "收纳袋",
+                "eligible_sku_ids": [
+                  "P2384-S1"
+                ],
+                "dimensions_cm": {
+                  "height": 10,
+                  "length": 22,
+                  "width": 17
+                },
+                "origin_country": "CN",
+                "source_platform": "amazon"
+              },
+              {
+                "product_id": "P2432",
+                "title": "Atlas 旅行收纳包 432",
+                "brand": "Atlas-00",
+                "category": "旅行装备",
+                "price_major": 39.0,
+                "currency": "CNY",
+                "source_price_major": 5.0,
+                "source_currency": "EUR",
+                "skus": [
+                  {
+                    "sku_id": "P2432-S1",
+                    "spec": "标准版",
+                    "price_major": 5.0,
+                    "currency": "EUR",
+                    "stock": 152
+                  }
+                ],
+                "landed_price": {
+                  "ship_to": "CN",
+                  "subtotal_major": 39.0,
+                  "freight_major": 25.0,
+                  "tariff_major": 0.0,
+                  "tariff_rate": 0.09,
+                  "de_minimis_applied": true,
+                  "landed_total_major": 64.0,
+                  "currency": "CNY"
+                },
+                "material_tags": [
+                  "金属"
+                ],
+                "ships_to": [
+                  "CN"
+                ],
+                "highlights": [
+                  "材质：铝合金",
+                  "测试属性：候选分组 86"
+                ],
+                "default_sku_id": "P2432-S1",
+                "canonical_product_id": "CAN-086",
+                "weight_kg": 1.06,
+                "known_weight_kg": 1.06,
+                "product_type": "收纳袋",
+                "eligible_sku_ids": [
+                  "P2432-S1"
+                ],
+                "dimensions_cm": {
+                  "height": 6,
+                  "length": 39,
+                  "width": 14
+                },
+                "origin_country": "CN",
+                "source_platform": "amazon"
+              },
+              {
+                "product_id": "P1052",
+                "title": "TravelScale 便携行李称",
+                "brand": "TravelScale",
+                "category": "旅行装备",
+                "price_major": 45.0,
+                "currency": "CNY",
+                "source_price_major": 45.0,
+                "source_currency": "CNY",
+                "skus": [
+                  {
+                    "sku_id": "P1052-S1",
+                    "spec": "黑色",
+                    "price_major": 45.0,
+                    "currency": "CNY",
+                    "stock": 200
+                  }
+                ],
+                "landed_price": {
+                  "ship_to": "CN",
+                  "subtotal_major": 45.0,
+                  "freight_major": 25.0,
+                  "tariff_major": 0.0,
+                  "tariff_rate": 0.09,
+                  "de_minimis_applied": true,
+                  "landed_total_major": 70.0,
+                  "currency": "CNY"
+                },
+                "material_tags": [
+                  "天然材料"
+                ],
+                "ships_to": [
+                  "CN",
+                  "US"
+                ],
+                "highlights": [
+                  "量程：最大 50kg"
+                ],
+                "default_sku_id": "P1052-S1",
+                "canonical_product_id": "CAN-LEGACY-022",
+                "weight_kg": 0.33,
+                "known_weight_kg": 0.33,
+                "product_type": null,
+                "eligible_sku_ids": [
+                  "P1052-S1"
+                ],
+                "dimensions_cm": {
+                  "height": 14,
+                  "length": 34,
+                  "width": 15
+                },
+                "origin_country": "CN",
+                "source_platform": "etsy"
+              },
+              {
+                "product_id": "P2240",
+                "title": "Atlas 旅行收纳包 240",
+                "brand": "Atlas-00",
+                "category": "旅行装备",
+                "price_major": 39.0,
+                "currency": "CNY",
+                "source_price_major": 39.0,
+                "source_currency": "CNY",
+                "skus": [
+                  {
+                    "sku_id": "P2240-S1",
+                    "spec": "标准版",
+                    "price_major": 39.0,
+                    "currency": "CNY",
+                    "stock": 68
+                  }
+                ],
+                "landed_price": {
+                  "ship_to": "CN",
+                  "subtotal_major": 39.0,
+                  "freight_major": 25.0,
+                  "tariff_major": 0.0,
+                  "tariff_rate": 0.09,
+                  "de_minimis_applied": true,
+                  "landed_total_major": 64.0,
+                  "currency": "CNY"
+                },
+                "material_tags": [
+                  "天然纤维"
+                ],
+                "ships_to": [
+                  "CN",
+                  "EU"
+                ],
+                "highlights": [
+                  "材质：帆布棉麻",
+                  "测试属性：候选分组 48"
+                ],
+                "default_sku_id": "P2240-S1",
+                "canonical_product_id": "CAN-048",
+                "weight_kg": 2.5,
+                "known_weight_kg": 2.5,
+                "product_type": "收纳袋",
+                "eligible_sku_ids": [
+                  "P2240-S1"
+                ],
+                "dimensions_cm": {
+                  "height": 9,
+                  "length": 33,
+                  "width": 9
+                },
+                "origin_country": "CN",
+                "source_platform": "amazon"
+              },
+              {
+                "product_id": "P1049",
+                "title": "BudgetPack 20L 简易背包",
+                "brand": "BudgetPack",
+                "category": "旅行装备",
+                "price_major": 39.0,
+                "currency": "CNY",
+                "source_price_major": 39.0,
+                "source_currency": "CNY",
+                "skus": [
+                  {
+                    "sku_id": "P1049-S1",
+                    "spec": "黑色",
+                    "price_major": 39.0,
+                    "currency": "CNY",
+                    "stock": 300
+                  }
+                ],
+                "landed_price": {
+                  "ship_to": "CN",
+                  "subtotal_major": 39.0,
+                  "freight_major": 25.0,
+                  "tariff_major": 0.0,
+                  "tariff_rate": 0.09,
+                  "de_minimis_applied": true,
+                  "landed_total_major": 64.0,
+                  "currency": "CNY"
+                },
+                "material_tags": [
+                  "合成聚合物"
+                ],
+                "ships_to": [
+                  "CN"
+                ],
+                "highlights": [
+                  "价位：入门平价款"
+                ],
+                "default_sku_id": "P1049-S1",
+                "canonical_product_id": "CAN-LEGACY-027",
+                "weight_kg": 0.78,
+                "known_weight_kg": 0.78,
+                "product_type": "背包",
+                "eligible_sku_ids": [
+                  "P1049-S1"
+                ],
+                "dimensions_cm": {
+                  "height": 7,
+                  "length": 39,
+                  "width": 20
+                },
+                "origin_country": "CN",
+                "source_platform": "walmart"
+              },
+              {
+                "product_id": "P1020",
+                "title": "SoleFresh 折叠旅行拖鞋",
+                "brand": "SoleFresh",
+                "category": "旅行装备",
+                "price_major": 49.0,
+                "currency": "CNY",
+                "source_price_major": 49.0,
+                "source_currency": "CNY",
+                "skus": [
+                  {
+                    "sku_id": "P1020-S1",
+                    "spec": "灰色 M",
+                    "price_major": 49.0,
+                    "currency": "CNY",
+                    "stock": 180
+                  }
+                ],
+                "landed_price": {
+                  "ship_to": "CN",
+                  "subtotal_major": 49.0,
+                  "freight_major": 25.0,
+                  "tariff_major": 0.0,
+                  "tariff_rate": 0.09,
+                  "de_minimis_applied": true,
+                  "landed_total_major": 74.0,
+                  "currency": "CNY"
+                },
+                "material_tags": [
+                  "天然材料"
+                ],
+                "ships_to": [
+                  "CN",
+                  "US"
+                ],
+                "highlights": [
+                  "重量：双足仅 160g"
+                ],
+                "default_sku_id": "P1020-S1",
+                "canonical_product_id": "CAN-LEGACY-019",
+                "weight_kg": 1.86,
+                "known_weight_kg": 1.86,
+                "product_type": null,
+                "eligible_sku_ids": [
+                  "P1020-S1"
+                ],
+                "dimensions_cm": {
+                  "height": 11,
+                  "length": 31,
+                  "width": 12
+                },
+                "origin_country": "CN",
+                "source_platform": "walmart"
+              }
+            ],
+            "filtered_out": [
+              {
+                "product_id": "P1011",
+                "title": "Voyager 旅行三件套 记忆棉款",
+                "category": "旅行装备",
+                "price_major": 139.0,
+                "currency": "CNY",
+                "reason": "over_price_cap"
+              },
+              {
+                "product_id": "P2208",
+                "title": "Atlas 旅行收纳包 208",
+                "category": "旅行装备",
+                "price_major": 698.98,
+                "currency": "CNY",
+                "reason": "ship_to_unavailable"
+              },
+              {
+                "product_id": "P2328",
+                "title": "Atlas 旅行收纳包 328",
+                "category": "旅行装备",
+                "price_major": 698.98,
+                "currency": "CNY",
+                "reason": "ship_to_unavailable"
+              }
+            ]
+          }
+        }
+      ],
+      "event_positions": [
+        [
+          5,
+          "TOOL_CALL_START"
+        ],
+        [
+          19,
+          "TOOL_CALL_RESULT"
+        ],
+        [
+          202,
+          "RUN_FINISHED"
+        ]
+      ],
+      "usage": {
+        "status": "success",
+        "elapsed_ms": 46175.1320999756,
+        "model_calls": 2,
+        "input_tokens": 35460,
+        "output_tokens": 260,
+        "observed_input_tokens": 35460,
+        "observed_output_tokens": 260,
+        "unknown_usage_calls": 0,
+        "active_attempts_at_finish": 0,
+        "usage_complete": true,
+        "ttft_p95_ms": 9483.99999999674,
+        "model_elapsed_ms": 45108.99999999674,
+        "tool_calls": 1,
+        "tool_errors": 0,
+        "fallbacks": 0,
+        "cost_usd": null,
+        "unknown_cost_calls": 2
+      },
+      "terminal": {
+        "type": "RUN_FINISHED",
+        "seq": 202,
+        "outcome": {
+          "type": "success"
+        }
+      }
+    },
+    {
+      "run_id": "570e10cb-64c3-4929-a8eb-b6ef0070ab1a",
+      "session_id": "d61f23e3-adc7-4e97-a961-c9fe5caf3f66",
+      "budget": 500,
+      "status": "completed",
+      "browser": {
+        "budget": 500,
+        "prompt": "把预算改回 500 元，其他条件不变。请用一两句话说明结果。",
+        "runId": "570e10cb-64c3-4929-a8eb-b6ef0070ab1a",
+        "threadId": "d61f23e3-adc7-4e97-a961-c9fe5caf3f66",
+        "webStatus": 200,
+        "finished": true,
+        "reply": "预算恢复至 ¥500 后，候选商品从 12 件增至 23 件（实际展示前 12 件）。此前因超 ¥50 预算被过滤的 Voyager 旅行三件套 (P1011)、LinenFold 亚麻收纳套 (P1019)、Wanderlite 旅行腰包 (P1017) 以及多款中价 Atlas 收纳包（如 P2224/P2104/P2248/P2152，单价 ¥169 左右）重新回到结果中，品类选择更丰富。仍有 3 款 Atlas 收纳包 (P2208/P2328/P2304) 因不可送达中国被排除。",
+        "error": null,
+        "cards": []
+      },
+      "tool_calls": [],
+      "event_positions": [
+        [
+          183,
+          "RUN_FINISHED"
+        ]
+      ],
+      "usage": {
+        "status": "success",
+        "elapsed_ms": 28953.33980000578,
+        "model_calls": 1,
+        "input_tokens": 20351,
+        "output_tokens": 174,
+        "observed_input_tokens": 20351,
+        "observed_output_tokens": 174,
+        "unknown_usage_calls": 0,
+        "active_attempts_at_finish": 0,
+        "usage_complete": true,
+        "ttft_p95_ms": 9672.00000002049,
+        "model_elapsed_ms": 28891.00000000326,
+        "tool_calls": 0,
+        "tool_errors": 0,
+        "fallbacks": 0,
+        "cost_usd": null,
+        "unknown_cost_calls": 1
+      },
+      "terminal": {
+        "type": "RUN_FINISHED",
+        "seq": 183,
+        "outcome": {
+          "type": "success"
+        }
+      }
+    }
+  ],
+  "isolated_backend_experiments": {
+    "model": "Qwen3.6-27B",
+    "catalog_count": 3700,
+    "catalog_sha256": "1d192e624567af3a034512ae40b805ae5fc2909102c0e4abb7f94956a4b1dbeb",
+    "index_points": 2460,
+    "tool_limit": 3,
+    "seeded_zero_id": "P999999",
+    "id_comparison": {
+      "product_id": "P1011",
+      "in_index": true,
+      "runs": [
+        {
+          "source": "program",
+          "args": {
+            "normalized_query": "P1011",
+            "price_max_major": 500,
+            "ship_to": "CN",
+            "top_k": 12,
+            "target_currency": "CNY",
+            "product_id": "P1011"
+          },
+          "result": {
+            "strategy": "exact_id_lookup",
+            "candidates": 1,
+            "hits": [
+              {
+                "product_id": "P1011",
+                "title": "Voyager 旅行三件套 记忆棉款",
+                "price_major": 139.0,
+                "currency": "CNY",
+                "ship_to": "CN",
+                "shipping_unavailable": null
+              }
+            ],
+            "stages": {
+              "merged_candidates": [
+                "P1011"
+              ],
+              "fused_candidates": [
+                "P1011"
+              ],
+              "ranked_candidates": [
+                "P1011"
+              ]
+            },
+            "filtered_sample": []
+          },
+          "seconds": 0.003
+        },
+        {
+          "source": "program",
+          "args": {
+            "normalized_query": "旅行用的记忆棉颈枕、眼罩和耳塞三件套",
+            "price_max_major": 500,
+            "ship_to": "CN",
+            "top_k": 12,
+            "target_currency": "CNY"
+          },
+          "result": {
+            "strategy": "keyword_2gram",
+            "candidates": 104,
+            "hits": [
+              {
+                "product_id": "P1011",
+                "title": "Voyager 旅行三件套 记忆棉款",
+                "price_major": 139.0,
+                "currency": "CNY",
+                "ship_to": "CN",
+                "shipping_unavailable": null
+              },
+              {
+                "product_id": "P1001",
+                "title": "Nomadica 旅行三件套（收纳袋+颈枕+眼罩）",
+                "price_major": 189.0,
+                "currency": "CNY",
+                "ship_to": "CN",
+                "shipping_unavailable": null
+              },
+              {
+                "product_id": "P1007",
+                "title": "PeakDry 速干旅行毛巾三件装",
+                "price_major": 79.0,
+                "currency": "CNY",
+                "ship_to": "CN",
+                "shipping_unavailable": null
+              },
+              {
+                "product_id": "P1012",
+                "title": "NestRest 充气颈枕 按压式",
+                "price_major": 69.0,
+                "currency": "CNY",
+                "ship_to": "CN",
+                "shipping_unavailable": null
+              },
+              {
+                "product_id": "P1013",
+                "title": "BlackoutPro 3D 真丝遮光眼罩",
+                "price_major": 89.0,
+                "currency": "CNY",
+                "ship_to": "CN",
+                "shipping_unavailable": null
+              },
+              {
+                "product_id": "P1014",
+                "title": "PackMate 压缩收纳袋 6件套",
+                "price_major": 99.0,
+                "currency": "CNY",
+                "ship_to": "CN",
+                "shipping_unavailable": null
+              },
+              {
+                "product_id": "P1053",
+                "title": "QuietEar 硅胶隔音耳塞",
+                "price_major": 39.0,
+                "currency": "CNY",
+                "ship_to": "CN",
+                "shipping_unavailable": null
+              },
+              {
+                "product_id": "P1058",
+                "title": "SteamRest 蒸汽热敷眼罩",
+                "price_major": 79.0,
+                "currency": "CNY",
+                "ship_to": "CN",
+                "shipping_unavailable": null
+              },
+              {
+                "product_id": "P3016",
+                "title": "Roamix 航空颈枕 GX-02-1 无侧向支撑",
+                "price_major": 117.98,
+                "currency": "CNY",
+                "ship_to": "CN",
+                "shipping_unavailable": null
+              },
+              {
+                "product_id": "P3021",
+                "title": "Roamix 航空颈枕 GX-02-2 单侧支撑",
+                "price_major": 213.99,
+                "currency": "CNY",
+                "ship_to": "CN",
+                "shipping_unavailable": null
+              },
+              {
+                "product_id": "P3024",
+                "title": "Roamix 航空颈枕 GX-02-3 双侧支撑",
+                "price_major": 378.0,
+                "currency": "CNY",
+                "ship_to": "CN",
+                "shipping_unavailable": null
+              },
+              {
+                "product_id": "P14000",
+                "title": "Lingua 登山リュック — 容量: 20 L · ML-01-1",
+                "price_major": 69.01,
+                "currency": "CNY",
+                "ship_to": "CN",
+                "shipping_unavailable": null
+              }
+            ],
+            "stages": {
+              "merged_candidates": [
+                "P1011",
+                "P1001",
+                "P2120",
+                "P1007",
+                "P1012",
+                "P1013",
+                "P1014",
+                "P1053",
+                "P1058",
+                "P3016",
+                "P3017",
+                "P3018",
+                "P3019",
+                "P3020",
+                "P3021",
+                "P3022",
+                "P3023",
+                "P3024",
+                "P3025",
+                "P3026",
+                "P3027",
+                "P3028",
+                "P3029",
+                "P3030",
+                "P3031",
+                "P14000",
+                "P14001",
+                "P14002",
+                "P14003",
+                "P14004",
+                "P14005",
+                "P14006",
+                "P14007",
+                "P14008",
+                "P14009",
+                "P14010",
+                "P14011",
+                "P14088",
+                "P14089",
+                "P14090",
+                "P14091",
+                "P14092",
+                "P14093",
+                "P14094",
+                "P14095",
+                "P34000",
+                "P34001",
+                "P34002",
+                "P34003",
+                "P34004",
+                "P34005",
+                "P34006",
+                "P34007",
+                "P34008",
+                "P34009",
+                "P34010",
+                "P34011",
+                "P34088",
+                "P34089",
+                "P34090",
+                "P34091",
+                "P34092",
+                "P34093",
+                "P34094",
+                "P34095",
+                "P1002",
+                "P1003",
+                "P1004",
+                "P1005",
+                "P1006",
+                "P1009",
+                "P1015",
+                "P1016",
+                "P1017",
+                "P1018",
+                "P1019",
+                "P1020",
+                "P1021",
+                "P1051",
+                "P1052",
+                "P1059",
+                "P1060",
+                "P1049",
+                "P1050",
+                "P1023",
+                "P1025",
+                "P1027",
+                "P1028",
+                "P1033",
+                "P1055",
+                "P1056",
+                "P2000",
+                "P2004",
+                "P2008",
+                "P2012",
+                "P2016",
+                "P2020",
+                "P2024",
+                "P2028",
+                "P2032",
+                "P2036",
+                "P2040",
+                "P2044",
+                "P2048",
+                "P2052",
+                "P2056",
+                "P2060",
+                "P2064",
+                "P2068",
+                "P2072",
+                "P2076",
+                "P2080",
+                "P2084",
+                "P2088",
+                "P2092",
+                "P2096",
+                "P2100",
+                "P2104",
+                "P2108",
+                "P2112",
+                "P2116",
+                "P2124",
+                "P2128",
+                "P2132",
+                "P2136",
+                "P2140",
+                "P2144",
+                "P2148",
+                "P2152",
+                "P2156",
+                "P2160",
+                "P2164",
+                "P2168",
+                "P2172",
+                "P2176",
+                "P2180",
+                "P2184",
+                "P2188",
+                "P2192",
+                "P2196",
+                "P2200",
+                "P2204",
+                "P2208",
+                "P2212",
+                "P2216",
+                "P2220",
+                "P2224",
+                "P2228",
+                "P2232",
+                "P2236",
+                "P2240",
+                "P2244",
+                "P2248",
+                "P2252",
+                "P2256",
+                "P2260",
+                "P2264",
+                "P2268",
+                "P2272",
+                "P2276",
+                "P2280",
+                "P2284",
+                "P2288",
+                "P2292",
+                "P2296",
+                "P2300",
+                "P2304",
+                "P2308",
+                "P2312",
+                "P2316",
+                "P2320",
+                "P2324",
+                "P2328",
+                "P2332",
+                "P2336",
+                "P2340",
+                "P2344",
+                "P2348",
+                "P2352",
+                "P2356",
+                "P2360",
+                "P2364",
+                "P2368",
+                "P2372",
+                "P2376",
+                "P2380",
+                "P2384",
+                "P2388",
+                "P2392",
+                "P2396",
+                "P2400",
+                "P2404",
+                "P2408",
+                "P2412",
+                "P2416",
+                "P2420",
+                "P2424",
+                "P2428",
+                "P2432",
+                "P2436",
+                "P3000",
+                "P3001",
+                "P3002",
+                "P3003",
+                "P3004",
+                "P3005",
+                "P3006",
+                "P3007",
+                "P3008",
+                "P3009",
+                "P3010",
+                "P3011",
+                "P3012",
+                "P3013",
+                "P3014",
+                "P3015",
+                "P3032",
+                "P3033",
+                "P3034",
+                "P3035",
+                "P3036",
+                "P3037",
+                "P3038",
+                "P3039",
+                "P3040",
+                "P3041",
+                "P3042",
+                "P3043",
+                "P3044",
+                "P3045",
+                "P3046",
+                "P3047",
+                "P3048",
+                "P3049",
+                "P3050",
+                "P3051",
+                "P3052",
+                "P3053",
+                "P3054",
+                "P3055",
+                "P3056",
+                "P3057",
+                "P3058",
+                "P3059",
+                "P3060",
+                "P3061",
+                "P3062",
+                "P3063",
+                "P3288",
+                "P3289",
+                "P3290",
+                "P3291",
+                "P3292",
+                "P3293",
+                "P3294",
+                "P3295",
+                "P3296",
+                "P3297",
+                "P3298",
+                "P3299",
+                "P3300",
+                "P3301",
+                "P3302",
+                "P3303",
+                "P3348",
+                "P3349",
+                "P3350",
+                "P3351"
+              ],
+              "fused_candidates": [
+                "P1011",
+                "P1001",
+                "P2120",
+                "P1007",
+                "P1012",
+                "P1013",
+                "P1014",
+                "P1053",
+                "P1058",
+                "P3016",
+                "P3017",
+                "P3018",
+                "P3019",
+                "P3020",
+                "P3021",
+                "P3022",
+                "P3023",
+                "P3024",
+                "P3025",
+                "P3026",
+                "P3027",
+                "P3028",
+                "P3029",
+                "P3030",
+                "P3031",
+                "P14000",
+                "P14001",
+                "P14002",
+                "P14003",
+                "P14004",
+                "P14005",
+                "P14006",
+                "P14007",
+                "P14008",
+                "P14009",
+                "P14010",
+                "P14011",
+                "P14088",
+                "P14089",
+                "P14090",
+                "P14091",
+                "P14092",
+                "P14093",
+                "P14094",
+                "P14095",
+                "P34000",
+                "P34001",
+                "P34002",
+                "P34003",
+                "P34004",
+                "P34005",
+                "P34006",
+                "P34007",
+                "P34008",
+                "P34009",
+                "P34010",
+                "P34011",
+                "P34088",
+                "P34089",
+                "P34090",
+                "P34091",
+                "P34092",
+                "P34093",
+                "P34094",
+                "P34095",
+                "P1002",
+                "P1003",
+                "P1004",
+                "P1005",
+                "P1006",
+                "P1009",
+                "P1015",
+                "P1016",
+                "P1017",
+                "P1018",
+                "P1019",
+                "P1020",
+                "P1021",
+                "P1051",
+                "P1052",
+                "P1059",
+                "P1060",
+                "P1049",
+                "P1050",
+                "P1023",
+                "P1025",
+                "P1027",
+                "P1028",
+                "P1033",
+                "P1055",
+                "P1056",
+                "P2000",
+                "P2004",
+                "P2008",
+                "P2012",
+                "P2016",
+                "P2020",
+                "P2024",
+                "P2028",
+                "P2032",
+                "P2036",
+                "P2040",
+                "P2044",
+                "P2048",
+                "P2052",
+                "P2056",
+                "P2060",
+                "P2064",
+                "P2068",
+                "P2072",
+                "P2076",
+                "P2080",
+                "P2084",
+                "P2088",
+                "P2092",
+                "P2096",
+                "P2100",
+                "P2104",
+                "P2108",
+                "P2112",
+                "P2116",
+                "P2124",
+                "P2128",
+                "P2132",
+                "P2136",
+                "P2140",
+                "P2144",
+                "P2148",
+                "P2152",
+                "P2156",
+                "P2160",
+                "P2164",
+                "P2168",
+                "P2172",
+                "P2176",
+                "P2180",
+                "P2184",
+                "P2188",
+                "P2192",
+                "P2196",
+                "P2200",
+                "P2204",
+                "P2208",
+                "P2212",
+                "P2216",
+                "P2220",
+                "P2224",
+                "P2228",
+                "P2232",
+                "P2236",
+                "P2240",
+                "P2244",
+                "P2248",
+                "P2252",
+                "P2256",
+                "P2260",
+                "P2264",
+                "P2268",
+                "P2272",
+                "P2276",
+                "P2280",
+                "P2284",
+                "P2288",
+                "P2292",
+                "P2296",
+                "P2300",
+                "P2304",
+                "P2308",
+                "P2312",
+                "P2316",
+                "P2320",
+                "P2324",
+                "P2328",
+                "P2332",
+                "P2336",
+                "P2340",
+                "P2344",
+                "P2348",
+                "P2352",
+                "P2356",
+                "P2360",
+                "P2364",
+                "P2368",
+                "P2372",
+                "P2376",
+                "P2380",
+                "P2384",
+                "P2388",
+                "P2392",
+                "P2396",
+                "P2400",
+                "P2404",
+                "P2408",
+                "P2412",
+                "P2416",
+                "P2420",
+                "P2424",
+                "P2428",
+                "P2432",
+                "P2436",
+                "P3000",
+                "P3001",
+                "P3002",
+                "P3003",
+                "P3004",
+                "P3005",
+                "P3006",
+                "P3007",
+                "P3008",
+                "P3009",
+                "P3010",
+                "P3011",
+                "P3012",
+                "P3013",
+                "P3014",
+                "P3015",
+                "P3032",
+                "P3033",
+                "P3034",
+                "P3035",
+                "P3036",
+                "P3037",
+                "P3038",
+                "P3039",
+                "P3040",
+                "P3041",
+                "P3042",
+                "P3043",
+                "P3044",
+                "P3045",
+                "P3046",
+                "P3047",
+                "P3048",
+                "P3049",
+                "P3050",
+                "P3051",
+                "P3052",
+                "P3053",
+                "P3054",
+                "P3055",
+                "P3056",
+                "P3057",
+                "P3058",
+                "P3059",
+                "P3060",
+                "P3061",
+                "P3062",
+                "P3063",
+                "P3288",
+                "P3289",
+                "P3290",
+                "P3291",
+                "P3292",
+                "P3293",
+                "P3294",
+                "P3295",
+                "P3296",
+                "P3297",
+                "P3298",
+                "P3299",
+                "P3300",
+                "P3301",
+                "P3302",
+                "P3303",
+                "P3348",
+                "P3349",
+                "P3350",
+                "P3351"
+              ],
+              "ranked_candidates": [
+                "P1011",
+                "P1001",
+                "P1007",
+                "P1012",
+                "P1013",
+                "P1014",
+                "P1053",
+                "P1058",
+                "P3016",
+                "P3021",
+                "P3024",
+                "P14000",
+                "P14001",
+                "P14002",
+                "P14003",
+                "P14004",
+                "P14005",
+                "P14008",
+                "P14009",
+                "P14010",
+                "P14011",
+                "P14088",
+                "P14089",
+                "P14092",
+                "P14093",
+                "P34006",
+                "P34007",
+                "P1003",
+                "P1005",
+                "P1006",
+                "P1009",
+                "P1016",
+                "P1017",
+                "P1018",
+                "P1019",
+                "P1020",
+                "P1021",
+                "P1051",
+                "P1052",
+                "P1059",
+                "P1060",
+                "P1049",
+                "P1025",
+                "P1027",
+                "P1028",
+                "P1033",
+                "P1055",
+                "P1056",
+                "P2060",
+                "P2068",
+                "P2072",
+                "P2080",
+                "P2096",
+                "P2104",
+                "P2108",
+                "P2116",
+                "P2132",
+                "P2140",
+                "P2152",
+                "P2168",
+                "P2176",
+                "P2180",
+                "P2188",
+                "P2204",
+                "P2212",
+                "P2216",
+                "P2224",
+                "P2240",
+                "P2248",
+                "P2252",
+                "P2260",
+                "P2276",
+                "P2284",
+                "P2288",
+                "P2296",
+                "P2312",
+                "P2320",
+                "P2332",
+                "P2348",
+                "P2356",
+                "P2360",
+                "P2368",
+                "P2384",
+                "P2392",
+                "P2396",
+                "P2404",
+                "P2420",
+                "P2428",
+                "P2432",
+                "P3001",
+                "P3004",
+                "P3008",
+                "P3012",
+                "P3032",
+                "P3036",
+                "P3048",
+                "P3052",
+                "P3056",
+                "P3061",
+                "P3288",
+                "P3292",
+                "P3296",
+                "P3301",
+                "P3348"
+              ]
+            },
+            "filtered_sample": [
+              {
+                "product_id": "P2120",
+                "title": "PureCanvas 纯棉旅行三件套（收纳袋+颈枕+眼罩）",
+                "category": "旅行装备",
+                "price_major": 39.0,
+                "currency": "CNY",
+                "reason": "ship_to_unavailable"
+              },
+              {
+                "product_id": "P3020",
+                "title": "Roamix 航空颈枕 GX-02-2 单侧支撑",
+                "category": "旅行装备",
+                "price_major": 198.0,
+                "currency": "CNY",
+                "reason": "out_of_stock"
+              },
+              {
+                "product_id": "P3022",
+                "title": "Roamix 航空颈枕 GX-02-2 单侧支撑",
+                "category": "旅行装备",
+                "price_major": 212.0,
+                "currency": "CNY",
+                "reason": "ship_to_unavailable"
+              }
+            ]
+          },
+          "seconds": 15.24
+        }
+      ],
+      "semantic_retry": {
+        "source": "program",
+        "args": {
+          "normalized_query": "旅行用的记忆棉颈枕、眼罩和耳塞三件套",
+          "price_max_major": 500,
+          "ship_to": "CN",
+          "top_k": 12,
+          "target_currency": "CNY"
+        },
+        "result": {
+          "strategy": "embedding_only",
+          "candidates": 24,
+          "hits": [
+            {
+              "product_id": "P1011",
+              "title": "Voyager 旅行三件套 记忆棉款",
+              "price_major": 139.0,
+              "currency": "CNY",
+              "ship_to": "CN",
+              "shipping_unavailable": null
+            },
+            {
+              "product_id": "P1001",
+              "title": "Nomadica 旅行三件套（收纳袋+颈枕+眼罩）",
+              "price_major": 189.0,
+              "currency": "CNY",
+              "ship_to": "CN",
+              "shipping_unavailable": null
+            },
+            {
+              "product_id": "P1012",
+              "title": "NestRest 充气颈枕 按压式",
+              "price_major": 69.0,
+              "currency": "CNY",
+              "ship_to": "CN",
+              "shipping_unavailable": null
+            },
+            {
+              "product_id": "P1058",
+              "title": "SteamRest 蒸汽热敷眼罩",
+              "price_major": 79.0,
+              "currency": "CNY",
+              "ship_to": "CN",
+              "shipping_unavailable": null
+            },
+            {
+              "product_id": "P2140",
+              "title": "Atlas 旅行洗护套装 140",
+              "price_major": 169.0,
+              "currency": "CNY",
+              "ship_to": "CN",
+              "shipping_unavailable": null
+            },
+            {
+              "product_id": "P2180",
+              "title": "Atlas 旅行洗护套装 180",
+              "price_major": 39.0,
+              "currency": "CNY",
+              "ship_to": "CN",
+              "shipping_unavailable": null
+            },
+            {
+              "product_id": "P1013",
+              "title": "BlackoutPro 3D 真丝遮光眼罩",
+              "price_major": 89.0,
+              "currency": "CNY",
+              "ship_to": "CN",
+              "shipping_unavailable": null
+            },
+            {
+              "product_id": "P2260",
+              "title": "Atlas 旅行洗护套装 260",
+              "price_major": 169.0,
+              "currency": "CNY",
+              "ship_to": "CN",
+              "shipping_unavailable": null
+            },
+            {
+              "product_id": "P2420",
+              "title": "Atlas 旅行洗护套装 420",
+              "price_major": 39.0,
+              "currency": "CNY",
+              "ship_to": "CN",
+              "shipping_unavailable": null
+            },
+            {
+              "product_id": "P3024",
+              "title": "Roamix 航空颈枕 GX-02-3 双侧支撑",
+              "price_major": 378.0,
+              "currency": "CNY",
+              "ship_to": "CN",
+              "shipping_unavailable": null
+            },
+            {
+              "product_id": "P1053",
+              "title": "QuietEar 硅胶隔音耳塞",
+              "price_major": 39.0,
+              "currency": "CNY",
+              "ship_to": "CN",
+              "shipping_unavailable": null
+            },
+            {
+              "product_id": "P2060",
+              "title": "Atlas 旅行洗护套装 060",
+              "price_major": 99.68,
+              "currency": "CNY",
+              "ship_to": "CN",
+              "shipping_unavailable": null
+            }
+          ],
+          "stages": {
+            "merged_candidates": [
+              "P1011",
+              "P2120",
+              "P1001",
+              "P1012",
+              "P2100",
+              "P1058",
+              "P2300",
+              "P2220",
+              "P2140",
+              "P2340",
+              "P2180",
+              "P1013",
+              "P2380",
+              "P2260",
+              "P2420",
+              "P3024",
+              "P3025",
+              "P3026",
+              "P3027",
+              "P1053",
+              "P2020",
+              "P2060",
+              "P2076",
+              "P2124",
+              "P2316",
+              "P2364",
+              "P2396",
+              "P2196",
+              "P2356",
+              "P2276",
+              "P2436",
+              "P2156",
+              "P2324",
+              "P2204",
+              "P2320",
+              "P2116",
+              "P2132",
+              "P2236",
+              "P2404",
+              "P2284",
+              "P2244",
+              "P2252",
+              "P2412",
+              "P2332",
+              "P3020",
+              "P3021",
+              "P3022",
+              "P3023"
+            ],
+            "fused_candidates": [
+              "P1011",
+              "P2120",
+              "P1001",
+              "P1012",
+              "P2100",
+              "P1058",
+              "P2300",
+              "P2220",
+              "P2140",
+              "P2340",
+              "P2180",
+              "P1013",
+              "P2380",
+              "P2260",
+              "P2420",
+              "P3024",
+              "P3025",
+              "P3026",
+              "P3027",
+              "P1053",
+              "P2020",
+              "P2060",
+              "P2076",
+              "P2124",
+              "P2316",
+              "P2364",
+              "P2396",
+              "P2196",
+              "P2356",
+              "P2276",
+              "P2436",
+              "P2156",
+              "P2324",
+              "P2204",
+              "P2320",
+              "P2116",
+              "P2132",
+              "P2236",
+              "P2404",
+              "P2284",
+              "P2244",
+              "P2252",
+              "P2412",
+              "P2332",
+              "P3020",
+              "P3021",
+              "P3022",
+              "P3023"
+            ],
+            "ranked_candidates": [
+              "P1011",
+              "P1001",
+              "P1012",
+              "P1058",
+              "P2140",
+              "P2180",
+              "P1013",
+              "P2260",
+              "P2420",
+              "P3024",
+              "P1053",
+              "P2060",
+              "P2396",
+              "P2356",
+              "P2276",
+              "P2324",
+              "P2204",
+              "P2116",
+              "P2132",
+              "P2404",
+              "P2284",
+              "P2252",
+              "P2332",
+              "P3021"
+            ]
+          },
+          "filtered_sample": [
+            {
+              "product_id": "P2120",
+              "title": "PureCanvas 纯棉旅行三件套（收纳袋+颈枕+眼罩）",
+              "category": "旅行装备",
+              "price_major": 39.0,
+              "currency": "CNY",
+              "reason": "ship_to_unavailable"
+            },
+            {
+              "product_id": "P2100",
+              "title": "Atlas 旅行洗护套装 100",
+              "category": "美妆个护",
+              "price_major": 699.0,
+              "currency": "CNY",
+              "reason": "ship_to_unavailable"
+            },
+            {
+              "product_id": "P2300",
+              "title": "Atlas 旅行洗护套装 300",
+              "category": "美妆个护",
+              "price_major": 39.0,
+              "currency": "CNY",
+              "reason": "ship_to_unavailable"
+            }
+          ]
+        },
+        "seconds": 0.492
+      }
+    },
+    "paired": [
+      {
+        "case": "budget",
+        "method": "workflow",
+        "user_messages": [
+          "想找旅行装备，寄到中国，单件商品价不超过500元人民币，最多列12件，运费税费另列。",
+          "把单件商品预算改成50元，其他条件不变。"
+        ],
+        "expected": {
+          "normalized_query": "旅行装备",
+          "price_max_major": 50,
+          "ship_to": "CN",
+          "top_k": 12,
+          "target_currency": "CNY"
+        },
+        "tools": [
+          {
+            "source": "program",
+            "args": {
+              "normalized_query": "旅行装备",
+              "price_max_major": 50,
+              "ship_to": "CN",
+              "top_k": 12,
+              "target_currency": "CNY"
+            },
+            "result": {
+              "strategy": "embedding_only",
+              "candidates": 13,
+              "hits": [
+                {
+                  "product_id": "P2288",
+                  "title": "Atlas 旅行收纳包 288",
+                  "price_major": 38.98,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2168",
+                  "title": "Atlas 旅行收纳包 168",
+                  "price_major": 38.98,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2144",
+                  "title": "Atlas 旅行收纳包 144",
+                  "price_major": 39.01,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2312",
+                  "title": "Atlas 旅行收纳包 312",
+                  "price_major": 39.0,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2360",
+                  "title": "Atlas 旅行收纳包 360",
+                  "price_major": 39.0,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2216",
+                  "title": "Atlas 旅行收纳包 216",
+                  "price_major": 38.98,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2384",
+                  "title": "Atlas 旅行收纳包 384",
+                  "price_major": 39.01,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2432",
+                  "title": "Atlas 旅行收纳包 432",
+                  "price_major": 39.0,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P1052",
+                  "title": "TravelScale 便携行李称",
+                  "price_major": 45.0,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2240",
+                  "title": "Atlas 旅行收纳包 240",
+                  "price_major": 39.0,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P1049",
+                  "title": "BudgetPack 20L 简易背包",
+                  "price_major": 39.0,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P1020",
+                  "title": "SoleFresh 折叠旅行拖鞋",
+                  "price_major": 49.0,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                }
+              ],
+              "stages": {
+                "merged_candidates": [
+                  "P1011",
+                  "P2208",
+                  "P2328",
+                  "P2288",
+                  "P2304",
+                  "P2408",
+                  "P1019",
+                  "P2192",
+                  "P2168",
+                  "P2088",
+                  "P2144",
+                  "P2184",
+                  "P2128",
+                  "P2224",
+                  "P2424",
+                  "P2104",
+                  "P2248",
+                  "P2152",
+                  "P2280",
+                  "P2312",
+                  "P2360",
+                  "P2064",
+                  "P1017",
+                  "P2120",
+                  "P2352",
+                  "P2112",
+                  "P2400",
+                  "P2232",
+                  "P2216",
+                  "P2368",
+                  "P2344",
+                  "P2256",
+                  "P2272",
+                  "P2264",
+                  "P2384",
+                  "P1014",
+                  "P2048",
+                  "P2392",
+                  "P2000",
+                  "P2376",
+                  "P1051",
+                  "P2432",
+                  "P2320",
+                  "P1001",
+                  "P2008",
+                  "P2136",
+                  "P2296",
+                  "P1052",
+                  "P2176",
+                  "P2336",
+                  "P1060",
+                  "P2160",
+                  "P2072",
+                  "P2240",
+                  "P2096",
+                  "P2032",
+                  "P2200",
+                  "P2024",
+                  "P1007",
+                  "P2016",
+                  "P1003",
+                  "P2080",
+                  "P2040",
+                  "P2416",
+                  "P1049",
+                  "P1050",
+                  "P1002",
+                  "P2056",
+                  "P1016",
+                  "P1059",
+                  "P1018",
+                  "P1020",
+                  "P1012",
+                  "P2188",
+                  "P2388",
+                  "P2100",
+                  "P2220",
+                  "P2108",
+                  "P3008",
+                  "P3009",
+                  "P3010",
+                  "P3011",
+                  "P2268",
+                  "P2148",
+                  "P2228",
+                  "P2380",
+                  "P2428",
+                  "P2212",
+                  "P3012",
+                  "P3013",
+                  "P3014",
+                  "P3015",
+                  "P2340",
+                  "P2436",
+                  "P1009",
+                  "P2172"
+                ],
+                "fused_candidates": [
+                  "P1011",
+                  "P2208",
+                  "P2328",
+                  "P2288",
+                  "P2304",
+                  "P2408",
+                  "P1019",
+                  "P2192",
+                  "P2168",
+                  "P2088",
+                  "P2144",
+                  "P2184",
+                  "P2128",
+                  "P2224",
+                  "P2424",
+                  "P2104",
+                  "P2248",
+                  "P2152",
+                  "P2280",
+                  "P2312",
+                  "P2360",
+                  "P2064",
+                  "P1017",
+                  "P2120",
+                  "P2352",
+                  "P2112",
+                  "P2400",
+                  "P2232",
+                  "P2216",
+                  "P2368",
+                  "P2344",
+                  "P2256",
+                  "P2272",
+                  "P2264",
+                  "P2384",
+                  "P1014",
+                  "P2048",
+                  "P2392",
+                  "P2000",
+                  "P2376",
+                  "P1051",
+                  "P2432",
+                  "P2320",
+                  "P1001",
+                  "P2008",
+                  "P2136",
+                  "P2296",
+                  "P1052",
+                  "P2176",
+                  "P2336",
+                  "P1060",
+                  "P2160",
+                  "P2072",
+                  "P2240",
+                  "P2096",
+                  "P2032",
+                  "P2200",
+                  "P2024",
+                  "P1007",
+                  "P2016",
+                  "P1003",
+                  "P2080",
+                  "P2040",
+                  "P2416",
+                  "P1049",
+                  "P1050",
+                  "P1002",
+                  "P2056",
+                  "P1016",
+                  "P1059",
+                  "P1018",
+                  "P1020",
+                  "P1012",
+                  "P2188",
+                  "P2388",
+                  "P2100",
+                  "P2220",
+                  "P2108",
+                  "P3008",
+                  "P3009",
+                  "P3010",
+                  "P3011",
+                  "P2268",
+                  "P2148",
+                  "P2228",
+                  "P2380",
+                  "P2428",
+                  "P2212",
+                  "P3012",
+                  "P3013",
+                  "P3014",
+                  "P3015",
+                  "P2340",
+                  "P2436",
+                  "P1009",
+                  "P2172"
+                ],
+                "ranked_candidates": [
+                  "P2288",
+                  "P2168",
+                  "P2144",
+                  "P2312",
+                  "P2360",
+                  "P2216",
+                  "P2384",
+                  "P2432",
+                  "P1052",
+                  "P2240",
+                  "P1049",
+                  "P1020",
+                  "P2108"
+                ]
+              },
+              "filtered_sample": [
+                {
+                  "product_id": "P1011",
+                  "title": "Voyager 旅行三件套 记忆棉款",
+                  "category": "旅行装备",
+                  "price_major": 139.0,
+                  "currency": "CNY",
+                  "reason": "over_price_cap"
+                },
+                {
+                  "product_id": "P2208",
+                  "title": "Atlas 旅行收纳包 208",
+                  "category": "旅行装备",
+                  "price_major": 698.98,
+                  "currency": "CNY",
+                  "reason": "ship_to_unavailable"
+                },
+                {
+                  "product_id": "P2328",
+                  "title": "Atlas 旅行收纳包 328",
+                  "category": "旅行装备",
+                  "price_major": 698.98,
+                  "currency": "CNY",
+                  "reason": "ship_to_unavailable"
+                }
+              ]
+            },
+            "seconds": 1.092
+          }
+        ],
+        "model_calls": [
+          {
+            "stage": "answer",
+            "seconds": 19.352,
+            "input_tokens": 790,
+            "output_tokens": 160
+          }
+        ],
+        "raw_answer": "{\n  \"answer\": \"为您找到12件符合预算的旅行装备，包括旅行收纳包、便携行李称、简易背包及折叠拖鞋，均可寄往中国。\",\n  \"product_ids\": [\n    \"P2288\",\n    \"P2168\",\n    \"P2144\",\n    \"P2312\",\n    \"P2360\",\n    \"P2216\",\n    \"P2384\",\n    \"P2432\",\n    \"P1052\",\n    \"P2240\",\n    \"P1049\",\n    \"P1020\"\n  ]\n}",
+        "parsed_answer": {
+          "answer": "为您找到12件符合预算的旅行装备，包括旅行收纳包、便携行李称、简易背包及折叠拖鞋，均可寄往中国。",
+          "product_ids": [
+            "P2288",
+            "P2168",
+            "P2144",
+            "P2312",
+            "P2360",
+            "P2216",
+            "P2384",
+            "P2432",
+            "P1052",
+            "P2240",
+            "P1049",
+            "P1020"
+          ]
+        },
+        "seconds": 20.444,
+        "constraints_retained": true,
+        "all_cards_within_constraints": true,
+        "recommendations_grounded": true,
+        "shown": 12,
+        "pass": true
+      },
+      {
+        "case": "budget",
+        "method": "agent",
+        "user_messages": [
+          "想找旅行装备，寄到中国，单件商品价不超过500元人民币，最多列12件，运费税费另列。",
+          "把单件商品预算改成50元，其他条件不变。"
+        ],
+        "expected": {
+          "normalized_query": "旅行装备",
+          "price_max_major": 50,
+          "ship_to": "CN",
+          "top_k": 12,
+          "target_currency": "CNY"
+        },
+        "tools": [
+          {
+            "source": "model",
+            "args": {
+              "normalized_query": "旅行装备",
+              "ship_to": "CN",
+              "price_max_major": 50,
+              "target_currency": "CNY",
+              "top_k": 12
+            },
+            "result": {
+              "strategy": "embedding_only",
+              "candidates": 13,
+              "hits": [
+                {
+                  "product_id": "P2288",
+                  "title": "Atlas 旅行收纳包 288",
+                  "price_major": 38.98,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2168",
+                  "title": "Atlas 旅行收纳包 168",
+                  "price_major": 38.98,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2144",
+                  "title": "Atlas 旅行收纳包 144",
+                  "price_major": 39.01,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2312",
+                  "title": "Atlas 旅行收纳包 312",
+                  "price_major": 39.0,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2360",
+                  "title": "Atlas 旅行收纳包 360",
+                  "price_major": 39.0,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2216",
+                  "title": "Atlas 旅行收纳包 216",
+                  "price_major": 38.98,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2384",
+                  "title": "Atlas 旅行收纳包 384",
+                  "price_major": 39.01,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2432",
+                  "title": "Atlas 旅行收纳包 432",
+                  "price_major": 39.0,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P1052",
+                  "title": "TravelScale 便携行李称",
+                  "price_major": 45.0,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2240",
+                  "title": "Atlas 旅行收纳包 240",
+                  "price_major": 39.0,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P1049",
+                  "title": "BudgetPack 20L 简易背包",
+                  "price_major": 39.0,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P1020",
+                  "title": "SoleFresh 折叠旅行拖鞋",
+                  "price_major": 49.0,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                }
+              ],
+              "stages": {
+                "merged_candidates": [
+                  "P1011",
+                  "P2208",
+                  "P2328",
+                  "P2288",
+                  "P2304",
+                  "P2408",
+                  "P1019",
+                  "P2192",
+                  "P2168",
+                  "P2088",
+                  "P2144",
+                  "P2184",
+                  "P2128",
+                  "P2224",
+                  "P2424",
+                  "P2104",
+                  "P2248",
+                  "P2152",
+                  "P2280",
+                  "P2312",
+                  "P2360",
+                  "P2064",
+                  "P1017",
+                  "P2120",
+                  "P2352",
+                  "P2112",
+                  "P2400",
+                  "P2232",
+                  "P2216",
+                  "P2368",
+                  "P2344",
+                  "P2256",
+                  "P2272",
+                  "P2264",
+                  "P2384",
+                  "P1014",
+                  "P2048",
+                  "P2392",
+                  "P2000",
+                  "P2376",
+                  "P1051",
+                  "P2432",
+                  "P2320",
+                  "P1001",
+                  "P2008",
+                  "P2136",
+                  "P2296",
+                  "P1052",
+                  "P2176",
+                  "P2336",
+                  "P1060",
+                  "P2160",
+                  "P2072",
+                  "P2240",
+                  "P2096",
+                  "P2032",
+                  "P2200",
+                  "P2024",
+                  "P1007",
+                  "P2016",
+                  "P1003",
+                  "P2080",
+                  "P2040",
+                  "P2416",
+                  "P1049",
+                  "P1050",
+                  "P1002",
+                  "P2056",
+                  "P1016",
+                  "P1059",
+                  "P1018",
+                  "P1020",
+                  "P1012",
+                  "P2188",
+                  "P2388",
+                  "P2100",
+                  "P2220",
+                  "P2108",
+                  "P3008",
+                  "P3009",
+                  "P3010",
+                  "P3011",
+                  "P2268",
+                  "P2148",
+                  "P2228",
+                  "P2380",
+                  "P2428",
+                  "P2212",
+                  "P3012",
+                  "P3013",
+                  "P3014",
+                  "P3015",
+                  "P2340",
+                  "P2436",
+                  "P1009",
+                  "P2172"
+                ],
+                "fused_candidates": [
+                  "P1011",
+                  "P2208",
+                  "P2328",
+                  "P2288",
+                  "P2304",
+                  "P2408",
+                  "P1019",
+                  "P2192",
+                  "P2168",
+                  "P2088",
+                  "P2144",
+                  "P2184",
+                  "P2128",
+                  "P2224",
+                  "P2424",
+                  "P2104",
+                  "P2248",
+                  "P2152",
+                  "P2280",
+                  "P2312",
+                  "P2360",
+                  "P2064",
+                  "P1017",
+                  "P2120",
+                  "P2352",
+                  "P2112",
+                  "P2400",
+                  "P2232",
+                  "P2216",
+                  "P2368",
+                  "P2344",
+                  "P2256",
+                  "P2272",
+                  "P2264",
+                  "P2384",
+                  "P1014",
+                  "P2048",
+                  "P2392",
+                  "P2000",
+                  "P2376",
+                  "P1051",
+                  "P2432",
+                  "P2320",
+                  "P1001",
+                  "P2008",
+                  "P2136",
+                  "P2296",
+                  "P1052",
+                  "P2176",
+                  "P2336",
+                  "P1060",
+                  "P2160",
+                  "P2072",
+                  "P2240",
+                  "P2096",
+                  "P2032",
+                  "P2200",
+                  "P2024",
+                  "P1007",
+                  "P2016",
+                  "P1003",
+                  "P2080",
+                  "P2040",
+                  "P2416",
+                  "P1049",
+                  "P1050",
+                  "P1002",
+                  "P2056",
+                  "P1016",
+                  "P1059",
+                  "P1018",
+                  "P1020",
+                  "P1012",
+                  "P2188",
+                  "P2388",
+                  "P2100",
+                  "P2220",
+                  "P2108",
+                  "P3008",
+                  "P3009",
+                  "P3010",
+                  "P3011",
+                  "P2268",
+                  "P2148",
+                  "P2228",
+                  "P2380",
+                  "P2428",
+                  "P2212",
+                  "P3012",
+                  "P3013",
+                  "P3014",
+                  "P3015",
+                  "P2340",
+                  "P2436",
+                  "P1009",
+                  "P2172"
+                ],
+                "ranked_candidates": [
+                  "P2288",
+                  "P2168",
+                  "P2144",
+                  "P2312",
+                  "P2360",
+                  "P2216",
+                  "P2384",
+                  "P2432",
+                  "P1052",
+                  "P2240",
+                  "P1049",
+                  "P1020",
+                  "P2108"
+                ]
+              },
+              "filtered_sample": [
+                {
+                  "product_id": "P1011",
+                  "title": "Voyager 旅行三件套 记忆棉款",
+                  "category": "旅行装备",
+                  "price_major": 139.0,
+                  "currency": "CNY",
+                  "reason": "over_price_cap"
+                },
+                {
+                  "product_id": "P2208",
+                  "title": "Atlas 旅行收纳包 208",
+                  "category": "旅行装备",
+                  "price_major": 698.98,
+                  "currency": "CNY",
+                  "reason": "ship_to_unavailable"
+                },
+                {
+                  "product_id": "P2328",
+                  "title": "Atlas 旅行收纳包 328",
+                  "category": "旅行装备",
+                  "price_major": 698.98,
+                  "currency": "CNY",
+                  "reason": "ship_to_unavailable"
+                }
+              ]
+            },
+            "seconds": 0.434
+          }
+        ],
+        "model_calls": [
+          {
+            "stage": "decide",
+            "seconds": 9.71,
+            "input_tokens": 488,
+            "output_tokens": 82
+          },
+          {
+            "stage": "decide",
+            "seconds": 1.026,
+            "input_tokens": 1217,
+            "output_tokens": 2
+          },
+          {
+            "stage": "answer",
+            "seconds": 18.263,
+            "input_tokens": 790,
+            "output_tokens": 158
+          }
+        ],
+        "raw_answer": "{\n  \"answer\": \"为您找到12件符合预算的旅行装备，包括收纳包、行李称、背包及拖鞋等，均支持寄往中国。\",\n  \"product_ids\": [\n    \"P2288\",\n    \"P2168\",\n    \"P2144\",\n    \"P2312\",\n    \"P2360\",\n    \"P2216\",\n    \"P2384\",\n    \"P2432\",\n    \"P1052\",\n    \"P2240\",\n    \"P1049\",\n    \"P1020\"\n  ]\n}",
+        "parsed_answer": {
+          "answer": "为您找到12件符合预算的旅行装备，包括收纳包、行李称、背包及拖鞋等，均支持寄往中国。",
+          "product_ids": [
+            "P2288",
+            "P2168",
+            "P2144",
+            "P2312",
+            "P2360",
+            "P2216",
+            "P2384",
+            "P2432",
+            "P1052",
+            "P2240",
+            "P1049",
+            "P1020"
+          ]
+        },
+        "seconds": 29.433,
+        "constraints_retained": true,
+        "all_cards_within_constraints": true,
+        "recommendations_grounded": true,
+        "shown": 12,
+        "pass": true
+      },
+      {
+        "case": "shipping",
+        "method": "agent",
+        "user_messages": [
+          "想找可寄到中国的旅行装备，单件商品价不超过500元人民币，最多列12件。",
+          "收货地改为日本，仍按人民币计价，其他条件不变。"
+        ],
+        "expected": {
+          "normalized_query": "旅行装备",
+          "price_max_major": 500,
+          "ship_to": "JP",
+          "top_k": 12,
+          "target_currency": "CNY"
+        },
+        "tools": [
+          {
+            "source": "model",
+            "args": {
+              "normalized_query": "旅行装备",
+              "ship_to": "JP",
+              "price_max_major": 500,
+              "target_currency": "CNY",
+              "top_k": 12
+            },
+            "result": {
+              "strategy": "embedding_only",
+              "candidates": 18,
+              "hits": [
+                {
+                  "product_id": "P2408",
+                  "title": "Atlas 旅行收纳包 408",
+                  "price_major": 38.98,
+                  "currency": "CNY",
+                  "ship_to": "JP",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P1019",
+                  "title": "LinenFold 亚麻旅行衣物收纳套",
+                  "price_major": 129.0,
+                  "currency": "CNY",
+                  "ship_to": "JP",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2192",
+                  "title": "Atlas 旅行收纳包 192",
+                  "price_major": 39.0,
+                  "currency": "CNY",
+                  "ship_to": "JP",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2224",
+                  "title": "Atlas 旅行收纳包 224",
+                  "price_major": 169.02,
+                  "currency": "CNY",
+                  "ship_to": "JP",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2152",
+                  "title": "Atlas 旅行收纳包 152",
+                  "price_major": 169.03,
+                  "currency": "CNY",
+                  "ship_to": "JP",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P1017",
+                  "title": "Wanderlite 轻量旅行腰包",
+                  "price_major": 79.0,
+                  "currency": "CNY",
+                  "ship_to": "JP",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2120",
+                  "title": "PureCanvas 纯棉旅行三件套（收纳袋+颈枕+眼罩）",
+                  "price_major": 39.0,
+                  "currency": "CNY",
+                  "ship_to": "JP",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2368",
+                  "title": "Atlas 旅行收纳包 368",
+                  "price_major": 169.01,
+                  "currency": "CNY",
+                  "ship_to": "JP",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2264",
+                  "title": "Atlas 旅行收纳包 264",
+                  "price_major": 39.01,
+                  "currency": "CNY",
+                  "ship_to": "JP",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2296",
+                  "title": "Atlas 旅行收纳包 296",
+                  "price_major": 168.98,
+                  "currency": "CNY",
+                  "ship_to": "JP",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2336",
+                  "title": "Atlas 旅行收纳包 336",
+                  "price_major": 38.98,
+                  "currency": "CNY",
+                  "ship_to": "JP",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P1003",
+                  "title": "Wanderlite 折叠旅行双肩包 35L",
+                  "price_major": 129.0,
+                  "currency": "CNY",
+                  "ship_to": "JP",
+                  "shipping_unavailable": null
+                }
+              ],
+              "stages": {
+                "merged_candidates": [
+                  "P1011",
+                  "P2208",
+                  "P2328",
+                  "P2288",
+                  "P2304",
+                  "P2408",
+                  "P1019",
+                  "P2192",
+                  "P2168",
+                  "P2088",
+                  "P2144",
+                  "P2184",
+                  "P2128",
+                  "P2224",
+                  "P2424",
+                  "P2104",
+                  "P2248",
+                  "P2152",
+                  "P2280",
+                  "P2312",
+                  "P2360",
+                  "P2064",
+                  "P1017",
+                  "P2120",
+                  "P2352",
+                  "P2112",
+                  "P2400",
+                  "P2232",
+                  "P2216",
+                  "P2368",
+                  "P2344",
+                  "P2256",
+                  "P2272",
+                  "P2264",
+                  "P2384",
+                  "P1014",
+                  "P2048",
+                  "P2392",
+                  "P2000",
+                  "P2376",
+                  "P1051",
+                  "P2432",
+                  "P2320",
+                  "P1001",
+                  "P2008",
+                  "P2136",
+                  "P2296",
+                  "P1052",
+                  "P2176",
+                  "P2336",
+                  "P1060",
+                  "P2160",
+                  "P2072",
+                  "P2240",
+                  "P2096",
+                  "P2032",
+                  "P2200",
+                  "P2024",
+                  "P1007",
+                  "P2016",
+                  "P1003",
+                  "P2080",
+                  "P2040",
+                  "P2416",
+                  "P1049",
+                  "P1050",
+                  "P1002",
+                  "P2056",
+                  "P1016",
+                  "P1059",
+                  "P1018",
+                  "P1020",
+                  "P1012",
+                  "P2188",
+                  "P2388",
+                  "P2100",
+                  "P2220",
+                  "P2108",
+                  "P3008",
+                  "P3009",
+                  "P3010",
+                  "P3011",
+                  "P2268",
+                  "P2148",
+                  "P2228",
+                  "P2380",
+                  "P2428",
+                  "P2212",
+                  "P3012",
+                  "P3013",
+                  "P3014",
+                  "P3015",
+                  "P2340",
+                  "P2436",
+                  "P1009",
+                  "P2172"
+                ],
+                "fused_candidates": [
+                  "P1011",
+                  "P2208",
+                  "P2328",
+                  "P2288",
+                  "P2304",
+                  "P2408",
+                  "P1019",
+                  "P2192",
+                  "P2168",
+                  "P2088",
+                  "P2144",
+                  "P2184",
+                  "P2128",
+                  "P2224",
+                  "P2424",
+                  "P2104",
+                  "P2248",
+                  "P2152",
+                  "P2280",
+                  "P2312",
+                  "P2360",
+                  "P2064",
+                  "P1017",
+                  "P2120",
+                  "P2352",
+                  "P2112",
+                  "P2400",
+                  "P2232",
+                  "P2216",
+                  "P2368",
+                  "P2344",
+                  "P2256",
+                  "P2272",
+                  "P2264",
+                  "P2384",
+                  "P1014",
+                  "P2048",
+                  "P2392",
+                  "P2000",
+                  "P2376",
+                  "P1051",
+                  "P2432",
+                  "P2320",
+                  "P1001",
+                  "P2008",
+                  "P2136",
+                  "P2296",
+                  "P1052",
+                  "P2176",
+                  "P2336",
+                  "P1060",
+                  "P2160",
+                  "P2072",
+                  "P2240",
+                  "P2096",
+                  "P2032",
+                  "P2200",
+                  "P2024",
+                  "P1007",
+                  "P2016",
+                  "P1003",
+                  "P2080",
+                  "P2040",
+                  "P2416",
+                  "P1049",
+                  "P1050",
+                  "P1002",
+                  "P2056",
+                  "P1016",
+                  "P1059",
+                  "P1018",
+                  "P1020",
+                  "P1012",
+                  "P2188",
+                  "P2388",
+                  "P2100",
+                  "P2220",
+                  "P2108",
+                  "P3008",
+                  "P3009",
+                  "P3010",
+                  "P3011",
+                  "P2268",
+                  "P2148",
+                  "P2228",
+                  "P2380",
+                  "P2428",
+                  "P2212",
+                  "P3012",
+                  "P3013",
+                  "P3014",
+                  "P3015",
+                  "P2340",
+                  "P2436",
+                  "P1009",
+                  "P2172"
+                ],
+                "ranked_candidates": [
+                  "P2408",
+                  "P1019",
+                  "P2192",
+                  "P2224",
+                  "P2152",
+                  "P1017",
+                  "P2120",
+                  "P2368",
+                  "P2264",
+                  "P2296",
+                  "P2336",
+                  "P1003",
+                  "P2080",
+                  "P2188",
+                  "P3008",
+                  "P2228",
+                  "P3012",
+                  "P1009"
+                ]
+              },
+              "filtered_sample": [
+                {
+                  "product_id": "P1011",
+                  "title": "Voyager 旅行三件套 记忆棉款",
+                  "category": "旅行装备",
+                  "price_major": 139.0,
+                  "currency": "CNY",
+                  "reason": "ship_to_unavailable"
+                },
+                {
+                  "product_id": "P2208",
+                  "title": "Atlas 旅行收纳包 208",
+                  "category": "旅行装备",
+                  "price_major": 698.98,
+                  "currency": "CNY",
+                  "reason": "ship_to_unavailable"
+                },
+                {
+                  "product_id": "P2328",
+                  "title": "Atlas 旅行收纳包 328",
+                  "category": "旅行装备",
+                  "price_major": 698.98,
+                  "currency": "CNY",
+                  "reason": "ship_to_unavailable"
+                }
+              ]
+            },
+            "seconds": 0.896
+          }
+        ],
+        "model_calls": [
+          {
+            "stage": "decide",
+            "seconds": 9.903,
+            "input_tokens": 484,
+            "output_tokens": 83
+          },
+          {
+            "stage": "decide",
+            "seconds": 1.072,
+            "input_tokens": 1236,
+            "output_tokens": 2
+          },
+          {
+            "stage": "answer",
+            "seconds": 17.118,
+            "input_tokens": 808,
+            "output_tokens": 148
+          }
+        ],
+        "raw_answer": "{\n  \"answer\": \"为您找到12件可寄往日本且价格低于500元的旅行装备。\",\n  \"product_ids\": [\n    \"P2408\",\n    \"P1019\",\n    \"P2192\",\n    \"P2224\",\n    \"P2152\",\n    \"P1017\",\n    \"P2120\",\n    \"P2368\",\n    \"P2264\",\n    \"P2296\",\n    \"P2336\",\n    \"P1003\"\n  ]\n}",
+        "parsed_answer": {
+          "answer": "为您找到12件可寄往日本且价格低于500元的旅行装备。",
+          "product_ids": [
+            "P2408",
+            "P1019",
+            "P2192",
+            "P2224",
+            "P2152",
+            "P1017",
+            "P2120",
+            "P2368",
+            "P2264",
+            "P2296",
+            "P2336",
+            "P1003"
+          ]
+        },
+        "seconds": 28.989,
+        "constraints_retained": true,
+        "all_cards_within_constraints": true,
+        "recommendations_grounded": true,
+        "shown": 12,
+        "pass": true
+      },
+      {
+        "case": "shipping",
+        "method": "workflow",
+        "user_messages": [
+          "想找可寄到中国的旅行装备，单件商品价不超过500元人民币，最多列12件。",
+          "收货地改为日本，仍按人民币计价，其他条件不变。"
+        ],
+        "expected": {
+          "normalized_query": "旅行装备",
+          "price_max_major": 500,
+          "ship_to": "JP",
+          "top_k": 12,
+          "target_currency": "CNY"
+        },
+        "tools": [
+          {
+            "source": "program",
+            "args": {
+              "normalized_query": "旅行装备",
+              "price_max_major": 500,
+              "ship_to": "JP",
+              "top_k": 12,
+              "target_currency": "CNY"
+            },
+            "result": {
+              "strategy": "embedding_only",
+              "candidates": 18,
+              "hits": [
+                {
+                  "product_id": "P2408",
+                  "title": "Atlas 旅行收纳包 408",
+                  "price_major": 38.98,
+                  "currency": "CNY",
+                  "ship_to": "JP",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P1019",
+                  "title": "LinenFold 亚麻旅行衣物收纳套",
+                  "price_major": 129.0,
+                  "currency": "CNY",
+                  "ship_to": "JP",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2192",
+                  "title": "Atlas 旅行收纳包 192",
+                  "price_major": 39.0,
+                  "currency": "CNY",
+                  "ship_to": "JP",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2224",
+                  "title": "Atlas 旅行收纳包 224",
+                  "price_major": 169.02,
+                  "currency": "CNY",
+                  "ship_to": "JP",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2152",
+                  "title": "Atlas 旅行收纳包 152",
+                  "price_major": 169.03,
+                  "currency": "CNY",
+                  "ship_to": "JP",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P1017",
+                  "title": "Wanderlite 轻量旅行腰包",
+                  "price_major": 79.0,
+                  "currency": "CNY",
+                  "ship_to": "JP",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2120",
+                  "title": "PureCanvas 纯棉旅行三件套（收纳袋+颈枕+眼罩）",
+                  "price_major": 39.0,
+                  "currency": "CNY",
+                  "ship_to": "JP",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2368",
+                  "title": "Atlas 旅行收纳包 368",
+                  "price_major": 169.01,
+                  "currency": "CNY",
+                  "ship_to": "JP",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2264",
+                  "title": "Atlas 旅行收纳包 264",
+                  "price_major": 39.01,
+                  "currency": "CNY",
+                  "ship_to": "JP",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2296",
+                  "title": "Atlas 旅行收纳包 296",
+                  "price_major": 168.98,
+                  "currency": "CNY",
+                  "ship_to": "JP",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2336",
+                  "title": "Atlas 旅行收纳包 336",
+                  "price_major": 38.98,
+                  "currency": "CNY",
+                  "ship_to": "JP",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P1003",
+                  "title": "Wanderlite 折叠旅行双肩包 35L",
+                  "price_major": 129.0,
+                  "currency": "CNY",
+                  "ship_to": "JP",
+                  "shipping_unavailable": null
+                }
+              ],
+              "stages": {
+                "merged_candidates": [
+                  "P1011",
+                  "P2208",
+                  "P2328",
+                  "P2288",
+                  "P2304",
+                  "P2408",
+                  "P1019",
+                  "P2192",
+                  "P2168",
+                  "P2088",
+                  "P2144",
+                  "P2184",
+                  "P2128",
+                  "P2224",
+                  "P2424",
+                  "P2104",
+                  "P2248",
+                  "P2152",
+                  "P2280",
+                  "P2312",
+                  "P2360",
+                  "P2064",
+                  "P1017",
+                  "P2120",
+                  "P2352",
+                  "P2112",
+                  "P2400",
+                  "P2232",
+                  "P2216",
+                  "P2368",
+                  "P2344",
+                  "P2256",
+                  "P2272",
+                  "P2264",
+                  "P2384",
+                  "P1014",
+                  "P2048",
+                  "P2392",
+                  "P2000",
+                  "P2376",
+                  "P1051",
+                  "P2432",
+                  "P2320",
+                  "P1001",
+                  "P2008",
+                  "P2136",
+                  "P2296",
+                  "P1052",
+                  "P2176",
+                  "P2336",
+                  "P1060",
+                  "P2160",
+                  "P2072",
+                  "P2240",
+                  "P2096",
+                  "P2032",
+                  "P2200",
+                  "P2024",
+                  "P1007",
+                  "P2016",
+                  "P1003",
+                  "P2080",
+                  "P2040",
+                  "P2416",
+                  "P1049",
+                  "P1050",
+                  "P1002",
+                  "P2056",
+                  "P1016",
+                  "P1059",
+                  "P1018",
+                  "P1020",
+                  "P1012",
+                  "P2188",
+                  "P2388",
+                  "P2100",
+                  "P2220",
+                  "P2108",
+                  "P3008",
+                  "P3009",
+                  "P3010",
+                  "P3011",
+                  "P2268",
+                  "P2148",
+                  "P2228",
+                  "P2380",
+                  "P2428",
+                  "P2212",
+                  "P3012",
+                  "P3013",
+                  "P3014",
+                  "P3015",
+                  "P2340",
+                  "P2436",
+                  "P1009",
+                  "P2172"
+                ],
+                "fused_candidates": [
+                  "P1011",
+                  "P2208",
+                  "P2328",
+                  "P2288",
+                  "P2304",
+                  "P2408",
+                  "P1019",
+                  "P2192",
+                  "P2168",
+                  "P2088",
+                  "P2144",
+                  "P2184",
+                  "P2128",
+                  "P2224",
+                  "P2424",
+                  "P2104",
+                  "P2248",
+                  "P2152",
+                  "P2280",
+                  "P2312",
+                  "P2360",
+                  "P2064",
+                  "P1017",
+                  "P2120",
+                  "P2352",
+                  "P2112",
+                  "P2400",
+                  "P2232",
+                  "P2216",
+                  "P2368",
+                  "P2344",
+                  "P2256",
+                  "P2272",
+                  "P2264",
+                  "P2384",
+                  "P1014",
+                  "P2048",
+                  "P2392",
+                  "P2000",
+                  "P2376",
+                  "P1051",
+                  "P2432",
+                  "P2320",
+                  "P1001",
+                  "P2008",
+                  "P2136",
+                  "P2296",
+                  "P1052",
+                  "P2176",
+                  "P2336",
+                  "P1060",
+                  "P2160",
+                  "P2072",
+                  "P2240",
+                  "P2096",
+                  "P2032",
+                  "P2200",
+                  "P2024",
+                  "P1007",
+                  "P2016",
+                  "P1003",
+                  "P2080",
+                  "P2040",
+                  "P2416",
+                  "P1049",
+                  "P1050",
+                  "P1002",
+                  "P2056",
+                  "P1016",
+                  "P1059",
+                  "P1018",
+                  "P1020",
+                  "P1012",
+                  "P2188",
+                  "P2388",
+                  "P2100",
+                  "P2220",
+                  "P2108",
+                  "P3008",
+                  "P3009",
+                  "P3010",
+                  "P3011",
+                  "P2268",
+                  "P2148",
+                  "P2228",
+                  "P2380",
+                  "P2428",
+                  "P2212",
+                  "P3012",
+                  "P3013",
+                  "P3014",
+                  "P3015",
+                  "P2340",
+                  "P2436",
+                  "P1009",
+                  "P2172"
+                ],
+                "ranked_candidates": [
+                  "P2408",
+                  "P1019",
+                  "P2192",
+                  "P2224",
+                  "P2152",
+                  "P1017",
+                  "P2120",
+                  "P2368",
+                  "P2264",
+                  "P2296",
+                  "P2336",
+                  "P1003",
+                  "P2080",
+                  "P2188",
+                  "P3008",
+                  "P2228",
+                  "P3012",
+                  "P1009"
+                ]
+              },
+              "filtered_sample": [
+                {
+                  "product_id": "P1011",
+                  "title": "Voyager 旅行三件套 记忆棉款",
+                  "category": "旅行装备",
+                  "price_major": 139.0,
+                  "currency": "CNY",
+                  "reason": "ship_to_unavailable"
+                },
+                {
+                  "product_id": "P2208",
+                  "title": "Atlas 旅行收纳包 208",
+                  "category": "旅行装备",
+                  "price_major": 698.98,
+                  "currency": "CNY",
+                  "reason": "ship_to_unavailable"
+                },
+                {
+                  "product_id": "P2328",
+                  "title": "Atlas 旅行收纳包 328",
+                  "category": "旅行装备",
+                  "price_major": 698.98,
+                  "currency": "CNY",
+                  "reason": "ship_to_unavailable"
+                }
+              ]
+            },
+            "seconds": 0.469
+          }
+        ],
+        "model_calls": [
+          {
+            "stage": "answer",
+            "seconds": 17.203,
+            "input_tokens": 808,
+            "output_tokens": 148
+          }
+        ],
+        "raw_answer": "{\n  \"answer\": \"为您找到12件可寄往日本且价格低于500元的旅行装备。\",\n  \"product_ids\": [\n    \"P2408\",\n    \"P1019\",\n    \"P2192\",\n    \"P2224\",\n    \"P2152\",\n    \"P1017\",\n    \"P2120\",\n    \"P2368\",\n    \"P2264\",\n    \"P2296\",\n    \"P2336\",\n    \"P1003\"\n  ]\n}",
+        "parsed_answer": {
+          "answer": "为您找到12件可寄往日本且价格低于500元的旅行装备。",
+          "product_ids": [
+            "P2408",
+            "P1019",
+            "P2192",
+            "P2224",
+            "P2152",
+            "P1017",
+            "P2120",
+            "P2368",
+            "P2264",
+            "P2296",
+            "P2336",
+            "P1003"
+          ]
+        },
+        "seconds": 17.673,
+        "constraints_retained": true,
+        "all_cards_within_constraints": true,
+        "recommendations_grounded": true,
+        "shown": 12,
+        "pass": true
+      },
+      {
+        "case": "zero",
+        "method": "workflow",
+        "user_messages": [
+          "请先查商品编号P999999。如果编号查不到，改搜旅行装备。寄到中国，单件不超过500元人民币，最多12件。"
+        ],
+        "expected": {
+          "normalized_query": "旅行装备",
+          "price_max_major": 500,
+          "ship_to": "CN",
+          "top_k": 12,
+          "target_currency": "CNY"
+        },
+        "tools": [
+          {
+            "source": "program",
+            "args": {
+              "normalized_query": "旅行装备",
+              "price_max_major": 500,
+              "ship_to": "CN",
+              "top_k": 12,
+              "target_currency": "CNY",
+              "product_id": "P999999"
+            },
+            "result": {
+              "strategy": "exact_id_lookup",
+              "candidates": 0,
+              "hits": [],
+              "stages": {
+                "merged_candidates": [],
+                "fused_candidates": [],
+                "ranked_candidates": []
+              },
+              "filtered_sample": []
+            },
+            "seconds": 0.0
+          },
+          {
+            "source": "program",
+            "args": {
+              "normalized_query": "旅行装备",
+              "price_max_major": 500,
+              "ship_to": "CN",
+              "top_k": 12,
+              "target_currency": "CNY"
+            },
+            "result": {
+              "strategy": "embedding_only",
+              "candidates": 23,
+              "hits": [
+                {
+                  "product_id": "P1011",
+                  "title": "Voyager 旅行三件套 记忆棉款",
+                  "price_major": 139.0,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2288",
+                  "title": "Atlas 旅行收纳包 288",
+                  "price_major": 38.98,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P1019",
+                  "title": "LinenFold 亚麻旅行衣物收纳套",
+                  "price_major": 129.0,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2168",
+                  "title": "Atlas 旅行收纳包 168",
+                  "price_major": 38.98,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2144",
+                  "title": "Atlas 旅行收纳包 144",
+                  "price_major": 39.01,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2224",
+                  "title": "Atlas 旅行收纳包 224",
+                  "price_major": 169.02,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2104",
+                  "title": "Atlas 旅行收纳包 104",
+                  "price_major": 169.02,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2248",
+                  "title": "Atlas 旅行收纳包 248",
+                  "price_major": 169.01,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2152",
+                  "title": "Atlas 旅行收纳包 152",
+                  "price_major": 169.03,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2312",
+                  "title": "Atlas 旅行收纳包 312",
+                  "price_major": 39.0,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2360",
+                  "title": "Atlas 旅行收纳包 360",
+                  "price_major": 39.0,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P1017",
+                  "title": "Wanderlite 轻量旅行腰包",
+                  "price_major": 79.0,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                }
+              ],
+              "stages": {
+                "merged_candidates": [
+                  "P1011",
+                  "P2208",
+                  "P2328",
+                  "P2288",
+                  "P2304",
+                  "P2408",
+                  "P1019",
+                  "P2192",
+                  "P2168",
+                  "P2088",
+                  "P2144",
+                  "P2184",
+                  "P2128",
+                  "P2224",
+                  "P2424",
+                  "P2104",
+                  "P2248",
+                  "P2152",
+                  "P2280",
+                  "P2312",
+                  "P2360",
+                  "P2064",
+                  "P1017",
+                  "P2120",
+                  "P2352",
+                  "P2112",
+                  "P2400",
+                  "P2232",
+                  "P2216",
+                  "P2368",
+                  "P2344",
+                  "P2256",
+                  "P2272",
+                  "P2264",
+                  "P2384",
+                  "P1014",
+                  "P2048",
+                  "P2392",
+                  "P2000",
+                  "P2376",
+                  "P1051",
+                  "P2432",
+                  "P2320",
+                  "P1001",
+                  "P2008",
+                  "P2136",
+                  "P2296",
+                  "P1052"
+                ],
+                "fused_candidates": [
+                  "P1011",
+                  "P2208",
+                  "P2328",
+                  "P2288",
+                  "P2304",
+                  "P2408",
+                  "P1019",
+                  "P2192",
+                  "P2168",
+                  "P2088",
+                  "P2144",
+                  "P2184",
+                  "P2128",
+                  "P2224",
+                  "P2424",
+                  "P2104",
+                  "P2248",
+                  "P2152",
+                  "P2280",
+                  "P2312",
+                  "P2360",
+                  "P2064",
+                  "P1017",
+                  "P2120",
+                  "P2352",
+                  "P2112",
+                  "P2400",
+                  "P2232",
+                  "P2216",
+                  "P2368",
+                  "P2344",
+                  "P2256",
+                  "P2272",
+                  "P2264",
+                  "P2384",
+                  "P1014",
+                  "P2048",
+                  "P2392",
+                  "P2000",
+                  "P2376",
+                  "P1051",
+                  "P2432",
+                  "P2320",
+                  "P1001",
+                  "P2008",
+                  "P2136",
+                  "P2296",
+                  "P1052"
+                ],
+                "ranked_candidates": [
+                  "P1011",
+                  "P2288",
+                  "P1019",
+                  "P2168",
+                  "P2144",
+                  "P2224",
+                  "P2104",
+                  "P2248",
+                  "P2152",
+                  "P2312",
+                  "P2360",
+                  "P1017",
+                  "P2216",
+                  "P2368",
+                  "P2384",
+                  "P1014",
+                  "P2392",
+                  "P1051",
+                  "P2432",
+                  "P2320",
+                  "P1001",
+                  "P2296",
+                  "P1052"
+                ]
+              },
+              "filtered_sample": [
+                {
+                  "product_id": "P2208",
+                  "title": "Atlas 旅行收纳包 208",
+                  "category": "旅行装备",
+                  "price_major": 698.98,
+                  "currency": "CNY",
+                  "reason": "ship_to_unavailable"
+                },
+                {
+                  "product_id": "P2328",
+                  "title": "Atlas 旅行收纳包 328",
+                  "category": "旅行装备",
+                  "price_major": 698.98,
+                  "currency": "CNY",
+                  "reason": "ship_to_unavailable"
+                },
+                {
+                  "product_id": "P2304",
+                  "title": "Atlas 旅行收纳包 304",
+                  "category": "旅行装备",
+                  "price_major": 699.02,
+                  "currency": "CNY",
+                  "reason": "ship_to_unavailable"
+                }
+              ]
+            },
+            "seconds": 0.828
+          }
+        ],
+        "model_calls": [
+          {
+            "stage": "answer",
+            "seconds": 7.959,
+            "input_tokens": 797,
+            "output_tokens": 65
+          }
+        ],
+        "raw_answer": "{\n  \"answer\": \"未查到编号P999999，为您找到以下旅行装备：\",\n  \"product_ids\": [\n    \"P1011\",\n    \"P2288\",\n    \"P1019\"\n  ]\n}",
+        "parsed_answer": {
+          "answer": "未查到编号P999999，为您找到以下旅行装备：",
+          "product_ids": [
+            "P1011",
+            "P2288",
+            "P1019"
+          ]
+        },
+        "seconds": 8.787,
+        "constraints_retained": true,
+        "all_cards_within_constraints": true,
+        "recommendations_grounded": true,
+        "shown": 12,
+        "pass": true
+      },
+      {
+        "case": "zero",
+        "method": "agent",
+        "user_messages": [
+          "请先查商品编号P999999。如果编号查不到，改搜旅行装备。寄到中国，单件不超过500元人民币，最多12件。"
+        ],
+        "expected": {
+          "normalized_query": "旅行装备",
+          "price_max_major": 500,
+          "ship_to": "CN",
+          "top_k": 12,
+          "target_currency": "CNY"
+        },
+        "tools": [
+          {
+            "source": "program",
+            "args": {
+              "normalized_query": "旅行装备",
+              "price_max_major": 500,
+              "ship_to": "CN",
+              "top_k": 12,
+              "target_currency": "CNY",
+              "product_id": "P999999"
+            },
+            "result": {
+              "strategy": "exact_id_lookup",
+              "candidates": 0,
+              "hits": [],
+              "stages": {
+                "merged_candidates": [],
+                "fused_candidates": [],
+                "ranked_candidates": []
+              },
+              "filtered_sample": []
+            },
+            "seconds": 0.0
+          },
+          {
+            "source": "model",
+            "args": {
+              "normalized_query": "旅行装备",
+              "price_max_major": 500,
+              "ship_to": "CN",
+              "top_k": 12,
+              "target_currency": "CNY"
+            },
+            "result": {
+              "strategy": "embedding_only",
+              "candidates": 23,
+              "hits": [
+                {
+                  "product_id": "P1011",
+                  "title": "Voyager 旅行三件套 记忆棉款",
+                  "price_major": 139.0,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2288",
+                  "title": "Atlas 旅行收纳包 288",
+                  "price_major": 38.98,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P1019",
+                  "title": "LinenFold 亚麻旅行衣物收纳套",
+                  "price_major": 129.0,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2168",
+                  "title": "Atlas 旅行收纳包 168",
+                  "price_major": 38.98,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2144",
+                  "title": "Atlas 旅行收纳包 144",
+                  "price_major": 39.01,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2224",
+                  "title": "Atlas 旅行收纳包 224",
+                  "price_major": 169.02,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2104",
+                  "title": "Atlas 旅行收纳包 104",
+                  "price_major": 169.02,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2248",
+                  "title": "Atlas 旅行收纳包 248",
+                  "price_major": 169.01,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2152",
+                  "title": "Atlas 旅行收纳包 152",
+                  "price_major": 169.03,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2312",
+                  "title": "Atlas 旅行收纳包 312",
+                  "price_major": 39.0,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P2360",
+                  "title": "Atlas 旅行收纳包 360",
+                  "price_major": 39.0,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                },
+                {
+                  "product_id": "P1017",
+                  "title": "Wanderlite 轻量旅行腰包",
+                  "price_major": 79.0,
+                  "currency": "CNY",
+                  "ship_to": "CN",
+                  "shipping_unavailable": null
+                }
+              ],
+              "stages": {
+                "merged_candidates": [
+                  "P1011",
+                  "P2208",
+                  "P2328",
+                  "P2288",
+                  "P2304",
+                  "P2408",
+                  "P1019",
+                  "P2192",
+                  "P2168",
+                  "P2088",
+                  "P2144",
+                  "P2184",
+                  "P2128",
+                  "P2224",
+                  "P2424",
+                  "P2104",
+                  "P2248",
+                  "P2152",
+                  "P2280",
+                  "P2312",
+                  "P2360",
+                  "P2064",
+                  "P1017",
+                  "P2120",
+                  "P2352",
+                  "P2112",
+                  "P2400",
+                  "P2232",
+                  "P2216",
+                  "P2368",
+                  "P2344",
+                  "P2256",
+                  "P2272",
+                  "P2264",
+                  "P2384",
+                  "P1014",
+                  "P2048",
+                  "P2392",
+                  "P2000",
+                  "P2376",
+                  "P1051",
+                  "P2432",
+                  "P2320",
+                  "P1001",
+                  "P2008",
+                  "P2136",
+                  "P2296",
+                  "P1052"
+                ],
+                "fused_candidates": [
+                  "P1011",
+                  "P2208",
+                  "P2328",
+                  "P2288",
+                  "P2304",
+                  "P2408",
+                  "P1019",
+                  "P2192",
+                  "P2168",
+                  "P2088",
+                  "P2144",
+                  "P2184",
+                  "P2128",
+                  "P2224",
+                  "P2424",
+                  "P2104",
+                  "P2248",
+                  "P2152",
+                  "P2280",
+                  "P2312",
+                  "P2360",
+                  "P2064",
+                  "P1017",
+                  "P2120",
+                  "P2352",
+                  "P2112",
+                  "P2400",
+                  "P2232",
+                  "P2216",
+                  "P2368",
+                  "P2344",
+                  "P2256",
+                  "P2272",
+                  "P2264",
+                  "P2384",
+                  "P1014",
+                  "P2048",
+                  "P2392",
+                  "P2000",
+                  "P2376",
+                  "P1051",
+                  "P2432",
+                  "P2320",
+                  "P1001",
+                  "P2008",
+                  "P2136",
+                  "P2296",
+                  "P1052"
+                ],
+                "ranked_candidates": [
+                  "P1011",
+                  "P2288",
+                  "P1019",
+                  "P2168",
+                  "P2144",
+                  "P2224",
+                  "P2104",
+                  "P2248",
+                  "P2152",
+                  "P2312",
+                  "P2360",
+                  "P1017",
+                  "P2216",
+                  "P2368",
+                  "P2384",
+                  "P1014",
+                  "P2392",
+                  "P1051",
+                  "P2432",
+                  "P2320",
+                  "P1001",
+                  "P2296",
+                  "P1052"
+                ]
+              },
+              "filtered_sample": [
+                {
+                  "product_id": "P2208",
+                  "title": "Atlas 旅行收纳包 208",
+                  "category": "旅行装备",
+                  "price_major": 698.98,
+                  "currency": "CNY",
+                  "reason": "ship_to_unavailable"
+                },
+                {
+                  "product_id": "P2328",
+                  "title": "Atlas 旅行收纳包 328",
+                  "category": "旅行装备",
+                  "price_major": 698.98,
+                  "currency": "CNY",
+                  "reason": "ship_to_unavailable"
+                },
+                {
+                  "product_id": "P2304",
+                  "title": "Atlas 旅行收纳包 304",
+                  "category": "旅行装备",
+                  "price_major": 699.02,
+                  "currency": "CNY",
+                  "reason": "ship_to_unavailable"
+                }
+              ]
+            },
+            "seconds": 0.423
+          }
+        ],
+        "model_calls": [
+          {
+            "stage": "decide",
+            "seconds": 9.828,
+            "input_tokens": 553,
+            "output_tokens": 83
+          },
+          {
+            "stage": "decide",
+            "seconds": 1.052,
+            "input_tokens": 1297,
+            "output_tokens": 2
+          },
+          {
+            "stage": "answer",
+            "seconds": 7.951,
+            "input_tokens": 797,
+            "output_tokens": 65
+          }
+        ],
+        "raw_answer": "{\n  \"answer\": \"未查到编号P999999，为您找到以下旅行装备：\",\n  \"product_ids\": [\n    \"P1011\",\n    \"P2288\",\n    \"P1019\"\n  ]\n}",
+        "parsed_answer": {
+          "answer": "未查到编号P999999，为您找到以下旅行装备：",
+          "product_ids": [
+            "P1011",
+            "P2288",
+            "P1019"
+          ]
+        },
+        "seconds": 19.254,
+        "constraints_retained": true,
+        "all_cards_within_constraints": true,
+        "recommendations_grounded": true,
+        "shown": 12,
+        "pass": true
+      }
+    ]
+  }
+}

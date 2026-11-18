@@ -1,0 +1,815 @@
+{
+  "before": [
+    {
+      "stage": "initial",
+      "budget": 500,
+      "elapsed_ms": 131445.9712000098,
+      "tool_calls": 1,
+      "model_calls": 2,
+      "cards": 12,
+      "run_id": "1dd472bb-07e1-4073-892c-c57fe98ca764",
+      "conditions": {
+        "normalized_query": "旅行装备",
+        "category": "旅行装备",
+        "price_max_major": 500,
+        "target_currency": "CNY",
+        "ship_to": "CN",
+        "top_k": 12
+      },
+      "total_candidates": 23,
+      "terminal": "RUN_FINISHED",
+      "reply": "本次检索共找到 12 件符合条件的旅行装备（单价 ≤ 500 元、可送达中国），全部展示如下：\n\n展开完整选购建议\n⌄"
+    },
+    {
+      "stage": "lowered",
+      "budget": 50,
+      "elapsed_ms": 46175.1320999756,
+      "tool_calls": 1,
+      "model_calls": 2,
+      "cards": 12,
+      "run_id": "04ce697e-8371-4741-93db-954035d8ed1e",
+      "conditions": {
+        "normalized_query": "旅行装备",
+        "category": "旅行装备",
+        "price_max_major": 50,
+        "target_currency": "CNY",
+        "ship_to": "CN",
+        "top_k": 12
+      },
+      "total_candidates": 12,
+      "terminal": "RUN_FINISHED",
+      "reply": "预算收紧至 ¥50 以内后，本次共找到 12 件商品。上一轮的 Voyager 旅行三件套 (P1011, ¥139)、亚麻收纳套 (P1019, ¥129)、旅行腰包 (P1017, ¥79) 及部分 Atlas 收纳包因超过 ¥50 单价上限被过滤；新出现的商品包括 TravelScale 便携行李称 (P1052, ¥45)、BudgetPack 20L 简易背包 (P1049, ¥39)、SoleFresh 折叠旅行拖鞋 (P1020, ¥49) 等。整体以低价 Atlas 收纳袋（单价 ¥38.98–39.01）为主。"
+    },
+    {
+      "stage": "restored",
+      "budget": 500,
+      "elapsed_ms": 28953.33980000578,
+      "tool_calls": 0,
+      "model_calls": 1,
+      "cards": 0,
+      "run_id": "570e10cb-64c3-4929-a8eb-b6ef0070ab1a",
+      "conditions": null,
+      "total_candidates": null,
+      "terminal": "RUN_FINISHED",
+      "reply": "预算恢复至 ¥500 后，候选商品从 12 件增至 23 件（实际展示前 12 件）。此前因超 ¥50 预算被过滤的 Voyager 旅行三件套 (P1011)、LinenFold 亚麻收纳套 (P1019)、Wanderlite 旅行腰包 (P1017) 以及多款中价 Atlas 收纳包（如 P2224/P2104/P2248/P2152，单价 ¥169 左右）重新回到结果中，品类选择更丰富。仍有 3 款 Atlas 收纳包 (P2208/P2328/P2304) 因不可送达中国被排除。"
+    }
+  ],
+  "after": [
+    {
+      "stage": "initial",
+      "budget": 500,
+      "elapsed_ms": 147131.57689999207,
+      "browser_elapsed_ms": 155177.99169999998,
+      "tool_calls": 1,
+      "model_calls": 2,
+      "cards": 12,
+      "products": [
+        {
+          "product_id": "P1011",
+          "price_major": 139.0,
+          "currency": "CNY",
+          "ship_to": "CN"
+        },
+        {
+          "product_id": "P2288",
+          "price_major": 38.98,
+          "currency": "CNY",
+          "ship_to": "CN"
+        },
+        {
+          "product_id": "P1019",
+          "price_major": 129.0,
+          "currency": "CNY",
+          "ship_to": "CN"
+        },
+        {
+          "product_id": "P2168",
+          "price_major": 38.98,
+          "currency": "CNY",
+          "ship_to": "CN"
+        },
+        {
+          "product_id": "P2144",
+          "price_major": 39.01,
+          "currency": "CNY",
+          "ship_to": "CN"
+        },
+        {
+          "product_id": "P2224",
+          "price_major": 169.02,
+          "currency": "CNY",
+          "ship_to": "CN"
+        },
+        {
+          "product_id": "P2104",
+          "price_major": 169.02,
+          "currency": "CNY",
+          "ship_to": "CN"
+        },
+        {
+          "product_id": "P2248",
+          "price_major": 169.01,
+          "currency": "CNY",
+          "ship_to": "CN"
+        },
+        {
+          "product_id": "P2152",
+          "price_major": 169.03,
+          "currency": "CNY",
+          "ship_to": "CN"
+        },
+        {
+          "product_id": "P2312",
+          "price_major": 39.0,
+          "currency": "CNY",
+          "ship_to": "CN"
+        },
+        {
+          "product_id": "P2360",
+          "price_major": 39.0,
+          "currency": "CNY",
+          "ship_to": "CN"
+        },
+        {
+          "product_id": "P1017",
+          "price_major": 79.0,
+          "currency": "CNY",
+          "ship_to": "CN"
+        }
+      ],
+      "run_id": "6956e008-0542-4c93-b0a0-3c03c3501a89",
+      "conditions": {
+        "normalized_query": "旅行装备",
+        "category": "旅行装备",
+        "price_max_major": 500,
+        "target_currency": "CNY",
+        "ship_to": "CN",
+        "top_k": 12
+      },
+      "total_candidates": 23,
+      "source": "model",
+      "result_ref": null,
+      "terminal": "RUN_FINISHED",
+      "reply": "共找到 12 件符合\"旅行装备\"关键词、可送达中国且单价 ≤500 元的商品，已为您展示全部候选：\n\n展开完整选购建议\n⌄",
+      "event_steps": [
+        {
+          "seq": 19,
+          "kind": "STATE_SNAPSHOT",
+          "product_count": 12
+        },
+        {
+          "seq": 20,
+          "kind": "TOOL_CALL_RESULT",
+          "conditions": {
+            "normalized_query": "旅行装备",
+            "category": "旅行装备",
+            "price_max_major": 500,
+            "target_currency": "CNY",
+            "ship_to": "CN",
+            "top_k": 12
+          },
+          "total_candidates": 23
+        },
+        {
+          "seq": 1160,
+          "kind": "usage.summary",
+          "usage": {
+            "status": "success",
+            "elapsed_ms": 147131.57689999207,
+            "model_calls": 2,
+            "input_tokens": 22386,
+            "output_tokens": 1234,
+            "observed_input_tokens": 22386,
+            "observed_output_tokens": 1234,
+            "unknown_usage_calls": 0,
+            "active_attempts_at_finish": 0,
+            "usage_complete": true,
+            "ttft_p95_ms": 5921.999999991385,
+            "model_elapsed_ms": 144719.00000001187,
+            "tool_calls": 1,
+            "tool_errors": 0,
+            "fallbacks": 0,
+            "cost_usd": null,
+            "unknown_cost_calls": 2
+          }
+        },
+        {
+          "seq": 1161,
+          "kind": "MESSAGES_SNAPSHOT"
+        },
+        {
+          "seq": 1163,
+          "kind": "RUN_FINISHED"
+        }
+      ]
+    },
+    {
+      "stage": "lowered",
+      "budget": 50,
+      "elapsed_ms": 932.7951000013854,
+      "browser_elapsed_ms": 1738.6579000000202,
+      "tool_calls": 1,
+      "model_calls": 0,
+      "cards": 12,
+      "products": [
+        {
+          "product_id": "P2288",
+          "price_major": 38.98,
+          "currency": "CNY",
+          "ship_to": "CN"
+        },
+        {
+          "product_id": "P2168",
+          "price_major": 38.98,
+          "currency": "CNY",
+          "ship_to": "CN"
+        },
+        {
+          "product_id": "P2144",
+          "price_major": 39.01,
+          "currency": "CNY",
+          "ship_to": "CN"
+        },
+        {
+          "product_id": "P2312",
+          "price_major": 39.0,
+          "currency": "CNY",
+          "ship_to": "CN"
+        },
+        {
+          "product_id": "P2360",
+          "price_major": 39.0,
+          "currency": "CNY",
+          "ship_to": "CN"
+        },
+        {
+          "product_id": "P2216",
+          "price_major": 38.98,
+          "currency": "CNY",
+          "ship_to": "CN"
+        },
+        {
+          "product_id": "P2384",
+          "price_major": 39.01,
+          "currency": "CNY",
+          "ship_to": "CN"
+        },
+        {
+          "product_id": "P2432",
+          "price_major": 39.0,
+          "currency": "CNY",
+          "ship_to": "CN"
+        },
+        {
+          "product_id": "P1052",
+          "price_major": 45.0,
+          "currency": "CNY",
+          "ship_to": "CN"
+        },
+        {
+          "product_id": "P2240",
+          "price_major": 39.0,
+          "currency": "CNY",
+          "ship_to": "CN"
+        },
+        {
+          "product_id": "P1049",
+          "price_major": 39.0,
+          "currency": "CNY",
+          "ship_to": "CN"
+        },
+        {
+          "product_id": "P1020",
+          "price_major": 49.0,
+          "currency": "CNY",
+          "ship_to": "CN"
+        }
+      ],
+      "run_id": "985825d2-0e2e-422b-ab14-f4ead3e388e8",
+      "conditions": {
+        "normalized_query": "旅行装备",
+        "category": "旅行装备",
+        "price_max_major": 50.0,
+        "target_currency": "CNY",
+        "ship_to": "CN",
+        "top_k": 12
+      },
+      "total_candidates": 12,
+      "source": "program",
+      "result_ref": "ctx_dbc7953fe2dd47c094854da7c62311e2",
+      "terminal": "RUN_FINISHED",
+      "reply": "已按本轮条件重新检索，已展示商品 12 件。",
+      "event_steps": [
+        {
+          "seq": 4,
+          "kind": "shopping.constraints.refresh",
+          "status": "running",
+          "conditions": {
+            "normalized_query": "旅行装备",
+            "category": "旅行装备",
+            "price_max_major": 50.0,
+            "target_currency": "CNY",
+            "ship_to": "CN",
+            "top_k": 12
+          }
+        },
+        {
+          "seq": 6,
+          "kind": "shopping.constraints.refresh",
+          "status": "completed",
+          "conditions": {
+            "normalized_query": "旅行装备",
+            "category": "旅行装备",
+            "price_max_major": 50.0,
+            "target_currency": "CNY",
+            "ship_to": "CN",
+            "top_k": 12
+          },
+          "resultRef": "ctx_dbc7953fe2dd47c094854da7c62311e2",
+          "hitCount": 12,
+          "totalCandidates": 12
+        },
+        {
+          "seq": 7,
+          "kind": "STATE_SNAPSHOT",
+          "product_count": 12
+        },
+        {
+          "seq": 8,
+          "kind": "usage.summary",
+          "usage": {
+            "status": "success",
+            "elapsed_ms": 932.7951000013854,
+            "model_calls": 0,
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "observed_input_tokens": 0,
+            "observed_output_tokens": 0,
+            "unknown_usage_calls": 0,
+            "active_attempts_at_finish": 0,
+            "usage_complete": true,
+            "ttft_p95_ms": null,
+            "model_elapsed_ms": 0,
+            "tool_calls": 1,
+            "tool_errors": 0,
+            "fallbacks": 0,
+            "cost_usd": 0,
+            "unknown_cost_calls": 0
+          }
+        },
+        {
+          "seq": 9,
+          "kind": "MESSAGES_SNAPSHOT"
+        },
+        {
+          "seq": 11,
+          "kind": "RUN_FINISHED"
+        }
+      ]
+    },
+    {
+      "stage": "restored",
+      "budget": 500,
+      "elapsed_ms": 723.6162000044715,
+      "browser_elapsed_ms": 877.3374999999942,
+      "tool_calls": 1,
+      "model_calls": 0,
+      "cards": 12,
+      "products": [
+        {
+          "product_id": "P1011",
+          "price_major": 139.0,
+          "currency": "CNY",
+          "ship_to": "CN"
+        },
+        {
+          "product_id": "P2288",
+          "price_major": 38.98,
+          "currency": "CNY",
+          "ship_to": "CN"
+        },
+        {
+          "product_id": "P1019",
+          "price_major": 129.0,
+          "currency": "CNY",
+          "ship_to": "CN"
+        },
+        {
+          "product_id": "P2168",
+          "price_major": 38.98,
+          "currency": "CNY",
+          "ship_to": "CN"
+        },
+        {
+          "product_id": "P2144",
+          "price_major": 39.01,
+          "currency": "CNY",
+          "ship_to": "CN"
+        },
+        {
+          "product_id": "P2224",
+          "price_major": 169.02,
+          "currency": "CNY",
+          "ship_to": "CN"
+        },
+        {
+          "product_id": "P2104",
+          "price_major": 169.02,
+          "currency": "CNY",
+          "ship_to": "CN"
+        },
+        {
+          "product_id": "P2248",
+          "price_major": 169.01,
+          "currency": "CNY",
+          "ship_to": "CN"
+        },
+        {
+          "product_id": "P2152",
+          "price_major": 169.03,
+          "currency": "CNY",
+          "ship_to": "CN"
+        },
+        {
+          "product_id": "P2312",
+          "price_major": 39.0,
+          "currency": "CNY",
+          "ship_to": "CN"
+        },
+        {
+          "product_id": "P2360",
+          "price_major": 39.0,
+          "currency": "CNY",
+          "ship_to": "CN"
+        },
+        {
+          "product_id": "P1017",
+          "price_major": 79.0,
+          "currency": "CNY",
+          "ship_to": "CN"
+        }
+      ],
+      "run_id": "68df5c53-d3f4-4c60-a2ef-f3b580ce4add",
+      "conditions": {
+        "normalized_query": "旅行装备",
+        "category": "旅行装备",
+        "price_max_major": 500.0,
+        "target_currency": "CNY",
+        "ship_to": "CN",
+        "top_k": 12
+      },
+      "total_candidates": 23,
+      "source": "program",
+      "result_ref": "ctx_08b766e9bcc1479fa32b8b7c9c311c63",
+      "terminal": "RUN_FINISHED",
+      "reply": "已按本轮条件重新检索，已展示商品 12 件。",
+      "event_steps": [
+        {
+          "seq": 4,
+          "kind": "shopping.constraints.refresh",
+          "status": "running",
+          "conditions": {
+            "normalized_query": "旅行装备",
+            "category": "旅行装备",
+            "price_max_major": 500.0,
+            "target_currency": "CNY",
+            "ship_to": "CN",
+            "top_k": 12
+          }
+        },
+        {
+          "seq": 6,
+          "kind": "shopping.constraints.refresh",
+          "status": "completed",
+          "conditions": {
+            "normalized_query": "旅行装备",
+            "category": "旅行装备",
+            "price_max_major": 500.0,
+            "target_currency": "CNY",
+            "ship_to": "CN",
+            "top_k": 12
+          },
+          "resultRef": "ctx_08b766e9bcc1479fa32b8b7c9c311c63",
+          "hitCount": 12,
+          "totalCandidates": 23
+        },
+        {
+          "seq": 7,
+          "kind": "STATE_SNAPSHOT",
+          "product_count": 12
+        },
+        {
+          "seq": 8,
+          "kind": "usage.summary",
+          "usage": {
+            "status": "success",
+            "elapsed_ms": 723.6162000044715,
+            "model_calls": 0,
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "observed_input_tokens": 0,
+            "observed_output_tokens": 0,
+            "unknown_usage_calls": 0,
+            "active_attempts_at_finish": 0,
+            "usage_complete": true,
+            "ttft_p95_ms": null,
+            "model_elapsed_ms": 0,
+            "tool_calls": 1,
+            "tool_errors": 0,
+            "fallbacks": 0,
+            "cost_usd": 0,
+            "unknown_cost_calls": 0
+          }
+        },
+        {
+          "seq": 9,
+          "kind": "MESSAGES_SNAPSHOT"
+        },
+        {
+          "seq": 11,
+          "kind": "RUN_FINISHED"
+        }
+      ]
+    },
+    {
+      "stage": "shipping",
+      "budget": 500,
+      "elapsed_ms": 729.7485000162851,
+      "browser_elapsed_ms": 1732.876099999994,
+      "tool_calls": 1,
+      "model_calls": 0,
+      "cards": 12,
+      "products": [
+        {
+          "product_id": "P2408",
+          "price_major": 38.98,
+          "currency": "CNY",
+          "ship_to": "JP"
+        },
+        {
+          "product_id": "P1019",
+          "price_major": 129.0,
+          "currency": "CNY",
+          "ship_to": "JP"
+        },
+        {
+          "product_id": "P2192",
+          "price_major": 39.0,
+          "currency": "CNY",
+          "ship_to": "JP"
+        },
+        {
+          "product_id": "P2224",
+          "price_major": 169.02,
+          "currency": "CNY",
+          "ship_to": "JP"
+        },
+        {
+          "product_id": "P2152",
+          "price_major": 169.03,
+          "currency": "CNY",
+          "ship_to": "JP"
+        },
+        {
+          "product_id": "P1017",
+          "price_major": 79.0,
+          "currency": "CNY",
+          "ship_to": "JP"
+        },
+        {
+          "product_id": "P2120",
+          "price_major": 39.0,
+          "currency": "CNY",
+          "ship_to": "JP"
+        },
+        {
+          "product_id": "P2368",
+          "price_major": 169.01,
+          "currency": "CNY",
+          "ship_to": "JP"
+        },
+        {
+          "product_id": "P2264",
+          "price_major": 39.01,
+          "currency": "CNY",
+          "ship_to": "JP"
+        },
+        {
+          "product_id": "P2296",
+          "price_major": 168.98,
+          "currency": "CNY",
+          "ship_to": "JP"
+        },
+        {
+          "product_id": "P2336",
+          "price_major": 38.98,
+          "currency": "CNY",
+          "ship_to": "JP"
+        },
+        {
+          "product_id": "P1003",
+          "price_major": 129.0,
+          "currency": "CNY",
+          "ship_to": "JP"
+        }
+      ],
+      "run_id": "cc5eea24-8e3d-435c-bf86-b67292ee387b",
+      "conditions": {
+        "normalized_query": "旅行装备",
+        "category": "旅行装备",
+        "price_max_major": 500.0,
+        "target_currency": "CNY",
+        "ship_to": "JP",
+        "top_k": 12
+      },
+      "total_candidates": 16,
+      "source": "program",
+      "result_ref": "ctx_92dcfe6caf49421ab7177e64a33128b1",
+      "terminal": "RUN_FINISHED",
+      "reply": "已按本轮条件重新检索，已展示商品 12 件。",
+      "event_steps": [
+        {
+          "seq": 4,
+          "kind": "shopping.constraints.refresh",
+          "status": "running",
+          "conditions": {
+            "normalized_query": "旅行装备",
+            "category": "旅行装备",
+            "price_max_major": 500.0,
+            "target_currency": "CNY",
+            "ship_to": "JP",
+            "top_k": 12
+          }
+        },
+        {
+          "seq": 6,
+          "kind": "shopping.constraints.refresh",
+          "status": "completed",
+          "conditions": {
+            "normalized_query": "旅行装备",
+            "category": "旅行装备",
+            "price_max_major": 500.0,
+            "target_currency": "CNY",
+            "ship_to": "JP",
+            "top_k": 12
+          },
+          "resultRef": "ctx_92dcfe6caf49421ab7177e64a33128b1",
+          "hitCount": 12,
+          "totalCandidates": 16
+        },
+        {
+          "seq": 7,
+          "kind": "STATE_SNAPSHOT",
+          "product_count": 12
+        },
+        {
+          "seq": 8,
+          "kind": "usage.summary",
+          "usage": {
+            "status": "success",
+            "elapsed_ms": 729.7485000162851,
+            "model_calls": 0,
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "observed_input_tokens": 0,
+            "observed_output_tokens": 0,
+            "unknown_usage_calls": 0,
+            "active_attempts_at_finish": 0,
+            "usage_complete": true,
+            "ttft_p95_ms": null,
+            "model_elapsed_ms": 0,
+            "tool_calls": 1,
+            "tool_errors": 0,
+            "fallbacks": 0,
+            "cost_usd": 0,
+            "unknown_cost_calls": 0
+          }
+        },
+        {
+          "seq": 9,
+          "kind": "MESSAGES_SNAPSHOT"
+        },
+        {
+          "seq": 11,
+          "kind": "RUN_FINISHED"
+        }
+      ]
+    },
+    {
+      "stage": "empty",
+      "budget": 1,
+      "elapsed_ms": 15438.436600001296,
+      "browser_elapsed_ms": 16323.2092,
+      "tool_calls": 1,
+      "model_calls": 0,
+      "cards": 0,
+      "products": [],
+      "run_id": "5857d46f-b214-4af4-b122-f6e623d2f0a2",
+      "conditions": {
+        "normalized_query": "旅行装备",
+        "category": "旅行装备",
+        "price_max_major": 1.0,
+        "target_currency": "CNY",
+        "ship_to": "JP",
+        "top_k": 12
+      },
+      "total_candidates": 0,
+      "source": "program",
+      "result_ref": "ctx_d2b3ef8ac5d745aaaaab0d9cfe876fbc",
+      "terminal": "RUN_FINISHED",
+      "reply": "已按本轮预算和配送条件重新检索，未找到符合条件的商品。",
+      "event_steps": [
+        {
+          "seq": 4,
+          "kind": "shopping.constraints.refresh",
+          "status": "running",
+          "conditions": {
+            "normalized_query": "旅行装备",
+            "category": "旅行装备",
+            "price_max_major": 1.0,
+            "target_currency": "CNY",
+            "ship_to": "JP",
+            "top_k": 12
+          }
+        },
+        {
+          "seq": 6,
+          "kind": "shopping.constraints.refresh",
+          "status": "completed",
+          "conditions": {
+            "normalized_query": "旅行装备",
+            "category": "旅行装备",
+            "price_max_major": 1.0,
+            "target_currency": "CNY",
+            "ship_to": "JP",
+            "top_k": 12
+          },
+          "resultRef": "ctx_d2b3ef8ac5d745aaaaab0d9cfe876fbc",
+          "hitCount": 0,
+          "totalCandidates": 0
+        },
+        {
+          "seq": 7,
+          "kind": "STATE_SNAPSHOT",
+          "product_count": 0
+        },
+        {
+          "seq": 8,
+          "kind": "usage.summary",
+          "usage": {
+            "status": "success",
+            "elapsed_ms": 15438.436600001296,
+            "model_calls": 0,
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "observed_input_tokens": 0,
+            "observed_output_tokens": 0,
+            "unknown_usage_calls": 0,
+            "active_attempts_at_finish": 0,
+            "usage_complete": true,
+            "ttft_p95_ms": null,
+            "model_elapsed_ms": 0,
+            "tool_calls": 1,
+            "tool_errors": 0,
+            "fallbacks": 0,
+            "cost_usd": 0,
+            "unknown_cost_calls": 0
+          }
+        },
+        {
+          "seq": 9,
+          "kind": "MESSAGES_SNAPSHOT"
+        },
+        {
+          "seq": 11,
+          "kind": "RUN_FINISHED"
+        }
+      ]
+    }
+  ],
+  "after_minus_before_ms": [
+    15685.605699982261,
+    -45242.33699997421,
+    -28229.723600001307
+  ],
+  "products_new_to_restored_turn_vs_50": [
+    "P1011",
+    "P1017",
+    "P1019",
+    "P2104",
+    "P2152",
+    "P2224",
+    "P2248"
+  ],
+  "measure": "AG-UI usage.summary.elapsed_ms",
+  "model": "Qwen3.6-27B",
+  "embedding_model": "bge-m3",
+  "frozen_product_vectors": 2460,
+  "candidate_runtime": "http://127.0.0.1:5175",
+  "targeted_regression_passed": 51,
+  "full_harness": {
+    "contracts_passed": 843,
+    "contracts_failed": 5,
+    "model_smoke_executed": false
+  }
+}
